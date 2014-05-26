@@ -6,7 +6,7 @@
 - [ ] N-body problems (1 week)
 - [ ] Molecular dynamics (1 week)
 - [ ] Finite Element and finite volume methods (1 week)
-- [ ] Voronoi and Delaunay tesselations (1 week)
+- [ ] Voronoi and Delaunay tessellations (1 week)
 - [ ] Lattice methods (1 week)
 - [ ] Multi-grid methods (1 week)
 - [ ] Matrix solvers, FFT methods (1 week)
