@@ -1,0 +1,290 @@
+\documentclass[letterpaper,10pt,onecolumn]{article}
+\usepackage[spanish]{babel}
+\usepackage[latin1]{inputenc}
+\usepackage{amsfonts}
+\usepackage{amsthm}
+\usepackage{amsmath}
+\usepackage{mathrsfs}
+\usepackage{empheq}
+\usepackage{enumitem}
+\usepackage[pdftex]{color,graphicx}
+\usepackage{hyperref}
+\usepackage{listings}
+\usepackage{calligra}
+\usepackage{algpseudocode} 
+\DeclareMathAlphabet{\mathcalligra}{T1}{calligra}{m}{n}
+\DeclareFontShape{T1}{calligra}{m}{n}{<->s*[2.2]callig15}{}
+\newcommand{\scripty}[1]{\ensuremath{\mathcalligra{#1}}}
+\lstloadlanguages{[5.2]Mathematica}
+\setlength{\oddsidemargin}{0cm}
+\setlength{\textwidth}{490pt}
+\setlength{\topmargin}{-40pt}
+\addtolength{\hoffset}{-0.3cm}
+\addtolength{\textheight}{4cm}
+
+\begin{document}
+\begin{center}
+
+\includegraphics[width=490pt]{header.png}\\[0.5cm]
+
+\textsc{\LARGE M\'etodos Computacionales Avanzados}\\[0.1cm]
+
+\large Jaime E. Forero Romero\\[0.5cm]
+
+\end{center}
+
+\large \noindent\textsc{Nombre del curso:}  M\'etodos Computacionales Avanzados%Aqui
+                                %nombre del curso 
+  
+\noindent\textsc{C\'odigo del curso:} FISI XXX %Aqui el codigo del
+                                %curso 
+
+\noindent\textsc{Unidad acad\'emica:} Departamento de F\'isica
+
+\noindent\textsc{Periodo acad\'emico:} 201520 %Aqui el periodo,
+                                %p.ej. 201510 
+
+\noindent\textsc{Horario:} %Aqui el horario, %p.ej. Ma y Ju, 10:00 a 11:20 
+
+\noindent\rule{\textwidth}{1pt}\\[-0.3cm]
+
+\normalsize \noindent\textsc{Nombre profesor(a) principal:} Jaime
+E. Forero Romero%Aqui nombre del profesor principal 
+
+\noindent\textsc{Correo electr\'onico:}
+\href{mailto:je.forero@uniandes.edu.co}{\nolinkurl{je.forero@uniandes.edu.co}}
+%Cambie address por su direccion de correo uniandes 
+
+\noindent\textsc{Horario y lugar de atenci\'on:} Ma y Ju 10:00 a
+11:00 AM, Oficina Ip208 %Aqui su horario y lugar de atencion, p.ej. Vi,
+                     %15:00 a 17:00, Oficina Ip102  
+%\\[-0.1cm]
+
+%\noindent\textsc{Nombre profesor(a) complementario(a):} %Aqui nombre
+                                %del profesor complementario si aplica 
+
+%\noindent\textsc{Correo electr\'onico:}
+%\href{mailto:address@uniandes.edu.co}{\nolinkurl{address@uniandes.edu.co}}
+%Cambie address por direccion de correo uniandes del profesor
+%complementario 
+
+%\noindent\textsc{Horario y lugar de atenci\'on:} %Aqui horario y
+%lugar de atencion del profesor complementario, p.ej. Vi, 15:00 a
+%17:00, Oficina Ip102 
+%\\[-0.1cm]
+%Repetir esto en caso de varios profesores complementarios
+
+%\noindent\textsc{Nombre monitor(a):} %Aqui nombre del monitor si aplica
+
+%\noindent\textsc{Correo electr\'onico:}
+%\href{mailto:address@uniandes.edu.co}{\nolinkurl{address@uniandes.edu.co}}
+%%Cambie address por direccion de correo uniandes del monitor 
+
+%\noindent\textsc{Horario y lugar de atenci\'on:} %Aqui horario y
+%lugar de atencion del monitor, p.ej. Vi, 15:00 a 17:00, Oficina Ip102 
+
+\noindent\rule{\textwidth}{1pt}\\[-0.1cm]
+
+\newcounter{mysection}
+\addtocounter{mysection}{1}
+
+\noindent\textbf{\large \Roman{mysection} \quad Introducci\'on}\\[-0.2cm]
+
+%Este espacio es para hacer una introduccion al curso, evidenciando la
+%propuesta metodologica. Debe ser clara y precisa. 
+
+\noindent\normalsize El objetivo principal de este curso es 
+\\[0.1cm]
+
+\stepcounter{mysection}
+\noindent\textbf{\large \Roman{mysection} \quad Objetivos}\\[-0.2cm]
+
+%En este espacio se debe precisar el ente visor del curso y el
+%proposito ideal al finalizar el curso. 
+\noindent\normalsize Los objetivos principales del curso son:
+
+\begin{itemize}
+
+	\item A \\[-0.6cm] 
+	\item B \\[-0.6cm] 
+	\item C \\[-0.2cm] 
+\end{itemize}
+
+\stepcounter{mysection}
+\noindent\textbf{\large \Roman{mysection} \quad Competencias a
+  desarrollar}\\[-0.2cm] 
+
+%En este espacio se describen las habilidades que el estudiante desarrollara en el transcurso del curso.
+
+\noindent\normalsize Al finalizar el curso, se espera que el
+estudiante est\'e en capacidad de: 
+
+\begin{itemize}
+	\item A \\[-0.6cm]
+	\item B\\[-0.6cm] 
+	\item C\\[-0.6cm] 
+	\item Generar conocimiento a partir del modelamiento te\'orico
+          y computacional de los conceptos vistos en clase.\\[-0.2cm] 
+\end{itemize}
+
+\stepcounter{mysection}
+\noindent\textbf{\large \Roman{mysection} \quad Contenido por
+  semanas}\\[-0.2cm] 
+
+%Se expone de forma ordenada toda la tematica a tratar del curso. Debe planearse para 15 semanas.
+
+
+\noindent\normalsize\textbf{\textsc{Semana 1.}} Unix. Conceptos b\'asicos de
+simulaci\'ones num\'ericas. Norma IEEE para aritm\'etica de punto
+flotante. Repositorios. Makefiles.
+\\[-0.3cm]   
+
+\noindent\textbf{\textsc{Semana 2.}} Discretizaci\'on de ecuaciones
+diferenciales ordinarias. 
+\\[-0.3cm]  
+
+\noindent\textbf{\textsc{Semana 3.}} 
+Discretizaci\'on de ecuaciones
+diferenciales parciales parab\'olicas (ecuaci\'on del calor).   
+\\[-0.3cm]  
+
+\noindent\textbf{\textsc{Semana 4.}} 
+Discretizaci\'on de ecuaciones
+diferenciales parciales hiperb\'olicas (ecuaci\'on de onda).   
+\\[-0.3cm]  
+
+\noindent\textbf{\textsc{Semana 5.}} 
+Discretizaci\'on de ecuaciones
+diferenciales parciales el\'ipticas (ecuaci\'on de Laplace).   
+\\[-0.3cm]  
+
+\noindent\textbf{\textsc{Semana 6.}}
+Leyes de conservaci\'on como una expresi\'on hiperb\'olica. Problema
+de Riemmann. M\'etodo de Godunov.
+\\[-0.3cm] 
+
+\noindent\textbf{\textsc{Semana 7.}} M\'etodos Monte Carlo. Cadenas de
+Markov. \\[-0.3cm]     
+
+\noindent\textbf{\textsc{Semana 8.}}  Machine learning A
+\\[-0.3cm] 
+
+\noindent\textbf{\textsc{Semana 9.}}  Machine learning B
+\\[-0.3cm] 
+
+\noindent\textbf{\textsc{Semana 10.}}  Machine learning C
+\\[-0.3cm]  
+
+\noindent\textbf{\textsc{Semana 11.}}  Machine learning D
+\\[-0.3cm]  
+
+\noindent\textbf{\textsc{Semana 11.}} 
+Fundamentos de programaci\'on en paralelo. Taxonomia de arquitecturas
+para c\'omputo en paralelo. M\'aquinas para c\'omputo en paralelo en
+Uniandes. 
+\\[-0.3cm]  
+
+\noindent\textbf{\textsc{Semana 13.}} 
+Fundamentos de programaci\'on en paralelo: MPI
+\\[-0.3cm] 
+
+\noindent\textbf{\textsc{Semana 14.}} 
+Fundamentos de programaci\'on en paralelo: OPENMP
+\\[-0.3cm] 
+
+\noindent\textbf{\textsc{Semana 15.}} Fundamentos de programaci\'on en
+paralelo: CUDA.
+\\[-0.1cm]  
+
+
+\stepcounter{mysection}
+\noindent\textbf{\large \Roman{mysection} \quad
+  Metodolog\'ia}\\[-0.2cm] 
+
+%Se describen las tecnicas y metodos para el desarrollo exitoso del curso.
+
+\noindent\normalsize El curso tendr\'a dos partes importantes. La
+primera es el desarrollo de clases magistrales donde se dar\'a
+\'enfasis a la aplicaci\'on de conceptos b\'asicos a la resoluci\'on
+de problemas. La segunda es la participaci\'on de estudiantes para
+resolver ejercicios y problemas. \\[0.1cm]
+
+\stepcounter{mysection}
+\noindent\textbf{\large \Roman{mysection} \quad Criterios de
+  evaluaci\'on}\\[-0.2cm] 
+
+En el curso se har\'an ocho quizes, tres parciales y un examen
+final. Tambi\'en se dar\'an talleres con ejercicios y problemas para
+que los estudiantes los trabajen por fuera del horario de
+clase. Los quizes, parciales y ex\'amenes reciben
+calificaci\'on. 
+
+Adicionalmente, habr\'a un espacio para la participaci\'on de
+los estudiantes en la forma de resoluci\'on de problemas en el
+tablero. Esta participaci\'on tambi\'en recibe calificaci\'on.
+
+Los porcentajes de cada evaluaci\'on son los siguientes.
+\begin{itemize}
+\item Primer parcial: 15\%
+\item Segundo parcial: 15\%
+\item Tercer parcial: 15\%
+\item Promedio de quizes (se quitan la mejor y la peor nota): 15\%
+\item Promedio participaci\'on en clase (se quitan la mejor y la peor
+  nota): 20\% 
+\item Examen final: 20\%
+\end{itemize}
+
+
+
+%Tener en cuenta los siguientes aspectos:
+%	\item Porcentajes de cada evaluacion
+%	\item Fechas importantes
+%	\item Parametros de calificacion
+%	\item Calificacion de asistencia y/o participacion en clase
+%	\item Reclamos
+%	\item Politica de aproximacion de notas
+
+
+
+\stepcounter{mysection}
+\noindent\textbf{\large \Roman{mysection} \quad
+  Bibliograf\'ia}\\[-0.2cm] 
+
+%Indicar los libros y la documentacion guia.
+
+\noindent\normalsize Bibliograf\'ia principal:
+
+\begin{itemize}
+	\item D.J. Griffiths. \textit{Introduction to
+          Electrodynamics}, 1999. (Biblioteca General - 537.6 G633
+          1999) 
+        \item L.D. Landau, E.M. Lifshitz. \textit{The Classical
+          Theory of Fields. Vol. 2}, (4a ed.), 1975.
+        \item J.M. Tejeiro \textit{Sobre la teor\'ia especial de la
+          relatividad}, 2004, Notas de clase, versi\'on en l\'inea:
+          \url{https://gnfisica.files.wordpress.com/2010/08/sobre_la_teoria_relatividadtejeiro.pdf} 
+	\item R.P. Feynman, \textit{The Feynman Lectures on Physics},
+          2006. Disponible online en
+          \href{http://www.feynmanlectures.caltech.edu}{\nolinkurl{http://www.feynmanlectures.caltech.edu}}. (Biblioteca
+          General - 530.0711 F295 2006)\\[-0.6cm] 
+	\item J.D. Jackson. \textit{Classical Electrodynamics},
+          1999. (Biblioteca General - 537.6 J114 1999)\\[-0.6cm] 
+\end{itemize}
+
+\noindent\normalsize Bibliograf\'ia complementaria:
+
+\begin{itemize}
+	\item E.M. Purcell. \textit{Electricity and Magnetism},
+          1985. (Biblioteca General - 537.1 P971 1985)\\[-0.6cm] 
+	\item J.R. Reitz, F.J. Milford y
+          R.W. Christy. \textit{Foundations of Electromagnetic
+            Theory}, 1993. (Biblioteca General - 530.141 R237
+          1993)\\[-0.6cm] 
+	\item P. Lorrain, D.R. Corson. \textit{Electromagnetism,
+          Principles and Applications}, 1979. (Biblioteca General -
+          537. L561 1979)\\[-0.6cm] 
+	\item J. Vanderlinde. \textit{Classical Electromagnetic Theory}, 2005. Disponible online (dentro del campus) en Springerlink:\\
+	\href{http://link.springer.com/book/10.1007/1-4020-2700-1}{\nolinkurl{http://link.springer.com/book/10.1007/1-4020-2700-1}} 
+\end{itemize}
+
+\end{document}
