@@ -1,6 +1,6 @@
 \documentclass[letterpaper,10pt,onecolumn]{article}
 \usepackage[spanish]{babel}
-\usepackage[latin1]{inputenc}
+\usepackage[utf8]{inputenc}
 \usepackage{amsfonts}
 \usepackage{amsthm}
 \usepackage{amsmath}
@@ -11,7 +11,8 @@
 \usepackage{hyperref}
 \usepackage{listings}
 \usepackage{calligra}
-\usepackage{algpseudocode} 
+\usepackage{url}
+%\usepackage{algpseudocode} 
 \DeclareMathAlphabet{\mathcalligra}{T1}{calligra}{m}{n}
 \DeclareFontShape{T1}{calligra}{m}{n}{<->s*[2.2]callig15}{}
 \newcommand{\scripty}[1]{\ensuremath{\mathcalligra{#1}}}
@@ -36,7 +37,7 @@
 \large \noindent\textsc{Nombre del curso:}  M\'etodos Computacionales Avanzados%Aqui
                                 %nombre del curso 
   
-\noindent\textsc{C\'odigo del curso:} FISI XXX %Aqui el codigo del
+\noindent\textsc{C\'odigo del curso:} FISI XXXX %Aqui el codigo del
                                 %curso 
 
 \noindent\textsc{Unidad acad\'emica:} Departamento de F\'isica
@@ -60,11 +61,11 @@ E. Forero Romero%Aqui nombre del profesor principal
                      %15:00 a 17:00, Oficina Ip102  
 %\\[-0.1cm]
 
-%\noindent\textsc{Nombre profesor(a) complementario(a):} %Aqui nombre
+\noindent\textsc{Nombre profesor(a) complementario(a):} Sebastian Perez Saaibi %Aqui nombre
                                 %del profesor complementario si aplica 
 
-%\noindent\textsc{Correo electr\'onico:}
-%\href{mailto:address@uniandes.edu.co}{\nolinkurl{address@uniandes.edu.co}}
+\noindent\textsc{Correo electr\'onico:}
+\href{mailto:spsaaibi@uniandes.edu.co}{\nolinkurl{spsaaibi@uniandes.edu.co}}
 %Cambie address por direccion de correo uniandes del profesor
 %complementario 
 
@@ -105,8 +106,8 @@ E. Forero Romero%Aqui nombre del profesor principal
 
 \begin{itemize}
 
-	\item A \\[-0.6cm] 
-	\item B \\[-0.6cm] 
+	\item A  Manejar lenguajes modernos de computación numérica como C/C++, Python, R y Julia, al igual que las librerías de Paralelización y Machine Learning más importantes. \\[-0.6cm]
+	\item B  Conocer aplicaciones prácticas a problemas científicos y del contexto industrial de las metodologías computacionales modernas. \\[-0.6cm]
 	\item C \\[-0.2cm] 
 \end{itemize}
 
@@ -120,9 +121,9 @@ E. Forero Romero%Aqui nombre del profesor principal
 estudiante est\'e en capacidad de: 
 
 \begin{itemize}
-	\item A \\[-0.6cm]
+	\item A  Tener un esquema para pre-procesar, analizar y generar reportes científicos y técnicos a partir de diversas fuentes de datos utilizando métodos computacionales. \\[-0.6cm]
 	\item B\\[-0.6cm] 
-	\item C\\[-0.6cm] 
+	\item C  Desplegar programas en paralelo en un cluster, al igual que en sistemas de cómputo distribuídos tales como Amazon AWS.\\[-0.6cm]
 	\item Generar conocimiento a partir del modelamiento te\'orico
           y computacional de los conceptos vistos en clase.\\[-0.2cm] 
 \end{itemize}
@@ -166,16 +167,16 @@ de Riemmann. M\'etodo de Godunov.
 Markov. 
 \\[-0.3cm]  
 
-\noindent\textbf{\textsc{Semana 8.}}  Machine learning A
+\noindent\textbf{\textsc{Semana 8.}} Aprendizaje Supervisado: Árboles de Decisión, Clasificación, Ranking Regresión, Redes Neuronales.
 \\[-0.3cm] 
 
-\noindent\textbf{\textsc{Semana 9.}}  Machine learning B
+\noindent\textbf{\textsc{Semana 9.}} Clustering: k-means, Jerárquico y Maximización del valor esperado (EM).
 \\[-0.3cm] 
 
-\noindent\textbf{\textsc{Semana 10.}}  Machine learning C
+\noindent\textbf{\textsc{Semana 10.}}  Reducción de Dimensionalidad y Predicción Estructurada: PCA, MDS, LDA; Modelos Gráficos, Redes Complejas y Análisis de datos Topológico.
 \\[-0.3cm] 
 
-\noindent\textbf{\textsc{Semana 11.}}  Machine learning D
+\noindent\textbf{\textsc{Semana 11.}}  Procesamiento Natural de Lenguaje (Naïve Bayes) y Aprendizaje Profundo (Deep Learning).
 \\[-0.3cm]  
 
 \noindent\textbf{\textsc{Semana 12.}} 
@@ -286,5 +287,12 @@ Los porcentajes de cada evaluaci\'on son los siguientes.
 	\item J. Vanderlinde. \textit{Classical Electromagnetic Theory}, 2005. Disponible online (dentro del campus) en Springerlink:\\
 	\href{http://link.springer.com/book/10.1007/1-4020-2700-1}{\nolinkurl{http://link.springer.com/book/10.1007/1-4020-2700-1}} 
 \end{itemize}
+
+\nocite{*}
+
+\medskip
+
+\bibliographystyle{unsrt} % Se usa el estilo unsrt de bibliografía
+\bibliography{sample}
 
 \end{document}
