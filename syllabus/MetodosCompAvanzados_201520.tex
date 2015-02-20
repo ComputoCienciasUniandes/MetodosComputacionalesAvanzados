@@ -56,8 +56,8 @@ E. Forero Romero%Aqui nombre del profesor principal
 \href{mailto:je.forero@uniandes.edu.co}{\nolinkurl{je.forero@uniandes.edu.co}}
 %Cambie address por su direccion de correo uniandes 
 
-\noindent\textsc{Horario y lugar de atenci\'on:} Ma y Ju 10:00 a
-11:00 AM, Oficina Ip208 %Aqui su horario y lugar de atencion, p.ej. Vi,
+%\noindent\textsc{Horario y lugar de atenci\'on:} Ma y Ju 10:00 a
+%11:00 AM, Oficina Ip208 %Aqui su horario y lugar de atencion, p.ej. Vi,
                      %15:00 a 17:00, Oficina Ip102  
 %\\[-0.1cm]
 
@@ -94,7 +94,23 @@ E. Forero Romero%Aqui nombre del profesor principal
 %Este espacio es para hacer una introduccion al curso, evidenciando la
 %propuesta metodologica. Debe ser clara y precisa. 
 
-\noindent\normalsize El objetivo principal de este curso es 
+\noindent\normalsize Los m\'etodos computacionales fundamental el
+trabajo en todas las \'areas t\'ecnicas y cient\'ificas,
+ya sean principalmente experimentales o te\'oricas. Esto se debe en
+gran parte a que la capacidad de utilizar computadoras de alto
+rendimiento ha disminuido en costo monetario y en complejidad.
+
+El curso de M\'etodos Computacionales Avanzados presenta estas
+posibilidades computacionales a estudiantes de diferentes disciplinas
+cient\'ificas. Para esto se porpone profundizar sus conocimientos
+en tres \'areas: resoluci\'on de ecuaciones diferenciales,
+implementaci\'on de m\'etodos de machine learning (i.e. algoritmos que
+aprenden de datos) y utilizaci\'on de t\'ecnicas de c\'omputo
+masivamente paralelo.
+
+Se asume que los estudiantes de este curso ya tienen conocimientos
+b\'asicos en m\'etodos computacionales equivalentes al nivel del curso
+M\'etodos Computacionales (FISI-2028).
 \\[0.1cm]
 
 \stepcounter{mysection}
@@ -106,9 +122,16 @@ E. Forero Romero%Aqui nombre del profesor principal
 
 \begin{itemize}
 
-	\item A  Manejar lenguajes modernos de computación numérica como C/C++, Python, R y Julia, al igual que las librerías de Paralelización y Machine Learning más importantes. \\[-0.6cm]
-	\item B  Conocer aplicaciones prácticas a problemas científicos y del contexto industrial de las metodologías computacionales modernas. \\[-0.6cm]
-	\item C \\[-0.2cm] 
+        \item Presentar m\'etodos para la resoluci\'on de ecuaciones
+          diferenciales parciales y ecuaciones diferenciales
+          estoc\'asticas. \\[-0.6cm]
+        \item Demostrar el uso de m\'etodos y librer\'ias de Machine
+          Learning. \\[-0.6cm]
+        \item Mostrar diferentes arquitecturas, paradigmas, lenguajes
+          y librerias para c\'omputo masivamente paralelo.
+	\item Estudiar diferentes aplicaciones prácticas a problemas
+          científicos y del contexto industrial de las metodologías
+          computacionales modernas. \\[-0.6cm] 
 \end{itemize}
 
 \stepcounter{mysection}
@@ -121,11 +144,17 @@ E. Forero Romero%Aqui nombre del profesor principal
 estudiante est\'e en capacidad de: 
 
 \begin{itemize}
-	\item A  Tener un esquema para pre-procesar, analizar y generar reportes científicos y técnicos a partir de diversas fuentes de datos utilizando métodos computacionales. \\[-0.6cm]
-	\item B\\[-0.6cm] 
-	\item C  Desplegar programas en paralelo en un cluster, al igual que en sistemas de cómputo distribuídos tales como Amazon AWS.\\[-0.6cm]
-	\item Generar conocimiento a partir del modelamiento te\'orico
-          y computacional de los conceptos vistos en clase.\\[-0.2cm] 
+\item Manejar lenguajes modernos de computación numérica de
+  bajo nivel (i.e. C/C++) y de alto nivel
+  (i.e. Python/R/Julia). \\[-0.6cm]
+\item Tener un esquema para pre-procesar, analizar y generar
+  reportes científicos y técnicos a partir de diversas fuentes
+  de datos utilizando métodos computacionales. \\[-0.6cm] 
+\item Desplegar programas en paralelo en un cluster, al
+  igual que en sistemas de cómputo distribuídos tales como
+  Amazon AWS.\\[-0.6cm] 
+\item Generar conocimiento a partir del modelamiento te\'orico
+  y computacional de los conceptos vistos en clase.\\[-0.2cm]  
 \end{itemize}
 
 \stepcounter{mysection}
@@ -142,47 +171,56 @@ flotante. Repositorios. Makefiles.
 
 \noindent\textbf{\textsc{Semana 2.}} 
 Discretizaci\'on de ecuaciones
-diferenciales parciales parab\'olicas (ecuaci\'on del calor).   
+diferenciales parciales parab\'olicas (ecuaci\'on del calor) e
+hiperb\'olicas (ecuaci\'on de onda).   
 \\[-0.3cm]  
 
 \noindent\textbf{\textsc{Semana 3.}} 
 Discretizaci\'on de ecuaciones
-diferenciales parciales hiperb\'olicas (ecuaci\'on de onda).   
-\\[-0.3cm]  
-
-\noindent\textbf{\textsc{Semana 4.}} 
-Discretizaci\'on de ecuaciones
 diferenciales parciales el\'ipticas (ecuaci\'on de Laplace).   
 \\[-0.3cm]  
 
-\noindent\textbf{\textsc{Semana 5.}}
+\noindent\textbf{\textsc{Semana 4.}} 
 Leyes de conservaci\'on como una expresi\'on hiperb\'olica. Problema
 de Riemmann. M\'etodo de Godunov.
-\\[-0.3cm] 
-
-\noindent\textbf{\textsc{Semana 6.}} Ecuaciones diferenciales estoc\'asticas.
 \\[-0.3cm]  
 
-\noindent\textbf{\textsc{Semana 7.}} M\'etodos Monte Carlo. Cadenas de
-Markov. 
+\noindent\textbf{\textsc{Semana 5.}}
+Ecuaciones diferenciales estoc\'asticas.
+\\[-0.3cm] 
+
+\noindent\textbf{\textsc{Semana 6.}} 
+M\'etodos Monte Carlo. Cadenas de Markov. 
 \\[-0.3cm]  
 
-\noindent\textbf{\textsc{Semana 8.}} Aprendizaje Supervisado: Árboles de Decisión, Clasificación, Ranking Regresión, Redes Neuronales.
-\\[-0.3cm] 
-
-\noindent\textbf{\textsc{Semana 9.}} Clustering: k-means, Jerárquico y Maximización del valor esperado (EM).
-\\[-0.3cm] 
-
-\noindent\textbf{\textsc{Semana 10.}}  Reducción de Dimensionalidad y Predicción Estructurada: PCA, MDS, LDA; Modelos Gráficos, Redes Complejas y Análisis de datos Topológico.
-\\[-0.3cm] 
-
-\noindent\textbf{\textsc{Semana 11.}}  Procesamiento Natural de Lenguaje (Naïve Bayes) y Aprendizaje Profundo (Deep Learning).
+\noindent\textbf{\textsc{Semana 7.}} 
+Aprendizaje Supervisado: Árboles de Decisión, Clasificación, Ranking
+Regresión, Redes Neuronales. 
 \\[-0.3cm]  
 
-\noindent\textbf{\textsc{Semana 12.}} 
+\noindent\textbf{\textsc{Semana 8.}} 
+Clustering: k-means, Jerárquico y Maximización del valor esperado (EM).
+\\[-0.3cm] 
+
+\noindent\textbf{\textsc{Semana 9.}} 
+Reducción de Dimensionalidad y Predicción Estructurada: PCA, MDS, LDA;
+Modelos Gráficos, Redes Complejas y Análisis de datos Topológico.  
+\\[-0.3cm] 
+
+\noindent\textbf{\textsc{Semana 10.}}  
+Procesamiento Natural de Lenguaje (Naïve Bayes) y Aprendizaje Profundo
+(Deep Learning). 
+\\[-0.3cm] 
+
+\noindent\textbf{\textsc{Semana 11.}}  
 Fundamentos de programaci\'on en paralelo. Taxonomia de arquitecturas
 para c\'omputo en paralelo. M\'aquinas para c\'omputo en paralelo en
 Uniandes. 
+\\[-0.3cm]  
+
+\noindent\textbf{\textsc{Semana 12.}} 
+C\'omo desplegar m\'aquinas de c\'omputo en La Nube. Ejemplos de
+aplicaci\'on en Amazon Web Services y Docker. 
 \\[-0.3cm]  
 
 \noindent\textbf{\textsc{Semana 13.}} 
@@ -193,7 +231,8 @@ Fundamentos de programaci\'on en paralelo: MPI
 Fundamentos de programaci\'on en paralelo: OPENMP
 \\[-0.3cm] 
 
-\noindent\textbf{\textsc{Semana 15.}} Fundamentos de programaci\'on en
+\noindent\textbf{\textsc{Semana 15.}} 
+Fundamentos de programaci\'on en
 paralelo: CUDA.
 \\[-0.1cm]  
 
@@ -204,46 +243,33 @@ paralelo: CUDA.
 
 %Se describen las tecnicas y metodos para el desarrollo exitoso del curso.
 
-\noindent\normalsize El curso tendr\'a dos partes importantes. La
-primera es el desarrollo de clases magistrales donde se dar\'a
-\'enfasis a la aplicaci\'on de conceptos b\'asicos a la resoluci\'on
-de problemas. La segunda es la participaci\'on de estudiantes para
-resolver ejercicios y problemas. \\[0.1cm]
+\noindent\normalsize Cada clase tendr\'a una corta presentaci\'on
+te\'orica (30 minutos aproximadamente) para pasar a practicar todos
+los conceptos directamente en la computadora/cluster a trav\'es de
+ejercicios de pr\'actica (50 minutos aproximadamente). \\[0.1cm]
+
 
 \stepcounter{mysection}
 \noindent\textbf{\large \Roman{mysection} \quad Criterios de
   evaluaci\'on}\\[-0.2cm] 
 
-En el curso se har\'an ocho quizes, tres parciales y un examen
-final. Tambi\'en se dar\'an talleres con ejercicios y problemas para
-que los estudiantes los trabajen por fuera del horario de
-clase. Los quizes, parciales y ex\'amenes reciben
-calificaci\'on. 
 
-Adicionalmente, habr\'a un espacio para la participaci\'on de
-los estudiantes en la forma de resoluci\'on de problemas en el
-tablero. Esta participaci\'on tambi\'en recibe calificaci\'on.
-
-Los porcentajes de cada evaluaci\'on son los siguientes.
-\begin{itemize}
-\item Primer parcial: 15\%
-\item Segundo parcial: 15\%
-\item Tercer parcial: 15\%
-\item Promedio de quizes (se quitan la mejor y la peor nota): 15\%
-\item Promedio participaci\'on en clase (se quitan la mejor y la peor
-  nota): 20\% 
-\item Examen final: 20\%
-\end{itemize}
-
-
-
-%Tener en cuenta los siguientes aspectos:
-%	\item Porcentajes de cada evaluacion
-%	\item Fechas importantes
-%	\item Parametros de calificacion
-%	\item Calificacion de asistencia y/o participacion en clase
-%	\item Reclamos
-%	\item Politica de aproximacion de notas
+En el curso tendr\'a cinco entregas de trabajos, cada una con un valor
+del $20\%$ de la nota definitiva. Los temas de las entregas ser\'an
+los siguientes:
+\begin{enumerate}
+\item Ecuaciones diferenciales parciales.
+\\[-0.6cm]
+\item Ecuaciones diferenciales estoc\'asticas.
+\\[-0.6cm]
+\item Machine Learning.
+\\[-0.6cm]
+\item C\'omputo en paralelo en MPI.
+\\[-0.6cm]
+\item Desarrollo de un proyecto propio que utilice c\'omputo
+  masivamente paralelo y alg\'un otro de los temas vistos en clase. 
+\\[-0.2cm]
+\end{enumerate}
 
 
 
@@ -256,43 +282,31 @@ Los porcentajes de cada evaluaci\'on son los siguientes.
 \noindent\normalsize Bibliograf\'ia principal:
 
 \begin{itemize}
-	\item D.J. Griffiths. \textit{Introduction to
-          Electrodynamics}, 1999. (Biblioteca General - 537.6 G633
-          1999) 
-        \item L.D. Landau, E.M. Lifshitz. \textit{The Classical
-          Theory of Fields. Vol. 2}, (4a ed.), 1975.
-        \item J.M. Tejeiro \textit{Sobre la teor\'ia especial de la
-          relatividad}, 2004, Notas de clase, versi\'on en l\'inea:
-          \url{https://gnfisica.files.wordpress.com/2010/08/sobre_la_teoria_relatividadtejeiro.pdf} 
-	\item R.P. Feynman, \textit{The Feynman Lectures on Physics},
-          2006. Disponible online en
-          \href{http://www.feynmanlectures.caltech.edu}{\nolinkurl{http://www.feynmanlectures.caltech.edu}}. (Biblioteca
-          General - 530.0711 F295 2006)\\[-0.6cm] 
-	\item J.D. Jackson. \textit{Classical Electrodynamics},
-          1999. (Biblioteca General - 537.6 J114 1999)\\[-0.6cm] 
-\end{itemize}
+\item R. L. Burden, J. D. Faires. \textit{Numerical analysis},
+  2011. (Biblioteca General - 519.4 B862 2011)\\[-0.6cm]
+\item A. Tveito, H.P. Langtangem, B.F. Nielsen., \textit{Elements of
+  Scientific Computing}, 2010.  (Biblioteca General, Recurso
+  Electr\'onico 510. )\\[-0.6cm] 
+\item O. Maimon and L. Rokach, \textit{The Data Mining and Knowledge
+  Discovery Handbook}, 2010. (Biblioteca General, Recurso
+  Electr\'onico 006.312)\\[-0.6cm]
+\item M. Snir, \textit{MPI : the complete reference},
+  1996. (Biblioteca General, 004.35 M637)\\[-0.6cm]
+\item J. Sanders, E. Kandrot. \textit{CUDA by example: an
+  introduction to general-purpose GPU programming}, 2010. (Biblioteca
+  General - 005.275 S152)\\[-0.2cm]
+\end{itemize} 
 
 \noindent\normalsize Bibliograf\'ia complementaria:
 
 \begin{itemize}
-	\item E.M. Purcell. \textit{Electricity and Magnetism},
-          1985. (Biblioteca General - 537.1 P971 1985)\\[-0.6cm] 
-	\item J.R. Reitz, F.J. Milford y
-          R.W. Christy. \textit{Foundations of Electromagnetic
-            Theory}, 1993. (Biblioteca General - 530.141 R237
-          1993)\\[-0.6cm] 
-	\item P. Lorrain, D.R. Corson. \textit{Electromagnetism,
-          Principles and Applications}, 1979. (Biblioteca General -
-          537. L561 1979)\\[-0.6cm] 
-	\item J. Vanderlinde. \textit{Classical Electromagnetic Theory}, 2005. Disponible online (dentro del campus) en Springerlink:\\
-	\href{http://link.springer.com/book/10.1007/1-4020-2700-1}{\nolinkurl{http://link.springer.com/book/10.1007/1-4020-2700-1}} 
+\item D. Conway and J. M. White. \textit{Machine learning for
+    hackers}, 2012.\\[-0.6cm]
+\item S.Bird. \textit{Natural Language Processing with
+  Python}, 2009.\\[-0.6cm]
+\item Theano Develpment. \textit{Deep Learning Tutorial}
+  \url{http://deeplearning.net/tutorial/}  \\[-0.2cm]
 \end{itemize}
 
-\nocite{*}
-
-\medskip
-
-\bibliographystyle{unsrt} % Se usa el estilo unsrt de bibliografía
-\bibliography{sample}
 
 \end{document}
