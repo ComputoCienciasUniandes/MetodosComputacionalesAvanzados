@@ -1,4 +1,4 @@
-AdvancedComputationalMethods
-============================
+Métodos Computacionales Avanzados
+=================================
 
-Advanced Computational Methods at Unversidad de los Andes (Colombia)
+Curso de métodos computacionales avanzados en la Universidad de los Andes (Colombia).
