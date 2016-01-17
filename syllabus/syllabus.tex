@@ -1,0 +1,317 @@
+\documentclass[letterpaper,10pt,onecolumn]{article}
+\usepackage[spanish]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage{amsfonts}
+\usepackage{amsthm}
+\usepackage{amsmath}
+\usepackage{mathrsfs}
+
+\usepackage{enumitem}
+\usepackage[pdftex]{color,graphicx}
+\usepackage{hyperref}
+\usepackage{listings}
+\usepackage{calligra}
+\usepackage{url}
+%\usepackage{algpseudocode} 
+\DeclareMathAlphabet{\mathcalligra}{T1}{calligra}{m}{n}
+\DeclareFontShape{T1}{calligra}{m}{n}{<->s*[2.2]callig15}{}
+\newcommand{\scripty}[1]{\ensuremath{\mathcalligra{#1}}}
+\lstloadlanguages{[5.2]Mathematica}
+\setlength{\oddsidemargin}{0cm}
+\setlength{\textwidth}{490pt}
+\setlength{\topmargin}{-40pt}
+\addtolength{\hoffset}{-0.3cm}
+\addtolength{\textheight}{4cm}
+
+\begin{document}
+\begin{center}
+
+\includegraphics[width=490pt]{header.png}\\[0.5cm]
+
+\textsc{\LARGE M\'etodos Computacionales Avanzados}\\[0.1cm]
+
+\large Jaime E. Forero Romero\\[0.5cm]
+
+\end{center}
+
+\large \noindent\textsc{Nombre del curso:}  M\'etodos Computacionales
+Avanzados%Aqui  
+                                %nombre del curso 
+  
+\noindent\textsc{C\'odigo del curso:} FISI 3028 / FISI 4028 %Aqui el codigo del
+                                %curso 
+
+\noindent\textsc{Unidad acad\'emica:} Departamento de F\'isica
+
+\noindent\textsc{Periodo acad\'emico:} 201610 %Aqui el periodo,
+                                %p.ej. 201510 
+
+\noindent\textsc{Horario:} Ma y Ju, 8:30 a 9:50 %Aqui el horario, %p.ej. Ma y Ju, 10:00 a 11:20 
+
+\noindent\rule{\textwidth}{1pt}\\[-0.3cm]
+
+\normalsize \noindent\textsc{Nombre profesor(a) principal:} Jaime
+E. Forero Romero%Aqui nombre del profesor principal 
+
+\noindent\textsc{Correo electr\'onico:}
+\href{mailto:je.forero@uniandes.edu.co}{\nolinkurl{je.forero@uniandes.edu.co}}
+%Cambie address por su direccion de correo uniandes 
+
+%\noindent\textsc{Horario y lugar de atenci\'on:} Ma y Ju 10:00 a
+%11:00 AM, Oficina Ip208 %Aqui su horario y lugar de atencion, p.ej. Vi,
+                     %15:00 a 17:00, Oficina Ip102  
+%\\[-0.1cm]
+
+\noindent\textsc{Nombre profesor(a) complementario(a):} %Aqui nombre
+                                %del profesor complementario si aplica 
+
+\noindent\textsc{Correo electr\'onico:}
+\href{mailto:@uniandes.edu.co}{\nolinkurl{@uniandes.edu.co}}
+
+%Cambie address por direccion de correo uniandes del profesor
+%complementario 
+
+%\noindent\textsc{Horario y lugar de atenci\'on:} %Aqui horario y
+%lugar de atencion del profesor complementario, p.ej. Vi, 15:00 a
+%17:00, Oficina Ip102 
+%\\[-0.1cm]
+%Repetir esto en caso de varios profesores complementarios
+
+%\noindent\textsc{Nombre monitor(a):} %Aqui nombre del monitor si aplica
+
+%\noindent\textsc{Correo electr\'onico:}
+%\href{mailto:address@uniandes.edu.co}{\nolinkurl{address@uniandes.edu.co}}
+%%Cambie address por direccion de correo uniandes del monitor 
+
+%\noindent\textsc{Horario y lugar de atenci\'on:} %Aqui horario y
+%lugar de atencion del monitor, p.ej. Vi, 15:00 a 17:00, Oficina Ip102 
+
+\noindent\rule{\textwidth}{1pt}\\[-0.1cm]
+
+\newcounter{mysection}
+\addtocounter{mysection}{1}
+
+\noindent\textbf{\large \Roman{mysection} \quad Introducci\'on}\\[-0.2cm]
+
+%Este espacio es para hacer una introduccion al curso, evidenciando la
+%propuesta metodologica. Debe ser clara y precisa. 
+
+\noindent\normalsize Los m\'etodos computacionales fundamental el
+trabajo en todas las \'areas t\'ecnicas y cient\'ificas,
+ya sean principalmente experimentales o te\'oricas. Esto se debe en
+gran parte a que la capacidad de utilizar computadoras de alto
+rendimiento ha disminuido en costo monetario y en complejidad.
+
+El curso de M\'etodos Computacionales Avanzados presenta estas
+posibilidades computacionales a estudiantes de diferentes disciplinas
+cient\'ificas. Para esto se porpone profundizar sus conocimientos
+en tres \'areas: resoluci\'on de ecuaciones diferenciales,
+implementaci\'on de m\'etodos de machine learning (i.e. algoritmos que
+aprenden de datos) y utilizaci\'on de t\'ecnicas de c\'omputo
+masivamente paralelo.
+
+Se asume que los estudiantes de este curso ya tienen conocimientos
+b\'asicos en m\'etodos computacionales equivalentes al nivel del curso
+M\'etodos Computacionales (FISI-2028).
+\\[0.1cm]
+
+\stepcounter{mysection}
+\noindent\textbf{\large \Roman{mysection} \quad Objetivos}\\[-0.2cm]
+
+%En este espacio se debe precisar el ente visor del curso y el
+%proposito ideal al finalizar el curso. 
+\noindent\normalsize Los objetivos principales del curso son:
+
+\begin{itemize}
+
+        \item Presentar m\'etodos para la resoluci\'on de ecuaciones
+          diferenciales ordinarias, parciales y estoc\'asticas. \\[-0.6cm] 
+        \item Demostrar el uso de m\'etodos y librer\'ias de Machine
+          Learning. \\[-0.6cm]
+        \item Mostrar diferentes arquitecturas, paradigmas, lenguajes
+          y librerias para c\'omputo masivamente paralelo.
+	\item Estudiar diferentes aplicaciones prácticas a problemas
+          científicos y del contexto industrial de las metodologías
+          computacionales modernas. \\[-0.6cm] 
+\end{itemize}
+
+\stepcounter{mysection}
+\noindent\textbf{\large \Roman{mysection} \quad Competencias a
+  desarrollar}\\[-0.2cm] 
+
+%En este espacio se describen las habilidades que el estudiante desarrollara en el transcurso del curso.
+
+\noindent\normalsize Al finalizar el curso, se espera que el
+estudiante est\'e en capacidad de: 
+
+\begin{itemize}
+\item Manejar lenguajes modernos de computación numérica de
+  bajo nivel (i.e. C/C++) y de alto nivel
+  (i.e. Python/R/Julia). \\[-0.6cm]
+\item Tener un esquema para pre-procesar, analizar y generar
+  reportes científicos y técnicos a partir de diversas fuentes
+  de datos utilizando métodos computacionales. \\[-0.6cm] 
+\item Desplegar programas en paralelo en un cluster, al
+  igual que en sistemas de cómputo distribuídos tales como
+  Amazon Web Services.\\[-0.6cm] 
+\item Generar conocimiento a partir del modelamiento te\'orico
+  y computacional de los conceptos vistos en clase.\\[-0.2cm]  
+\end{itemize}
+
+\stepcounter{mysection}
+\noindent\textbf{\large \Roman{mysection} \quad Contenido por
+  semanas}\\[-0.2cm] 
+
+%Se expone de forma ordenada toda la tematica a tratar del curso. Debe planearse para 15 semanas.
+
+
+\noindent\normalsize\textbf{\textsc{Semana 1.}}
+Unix. Repositorios. Makefiles. C. Python. Norma IEEE para aritm\'etica de punto
+flotante. 
+\\[-0.3cm]
+
+\noindent\textbf{\textsc{Semana 2.}} Integraci\'on de ecuaciones
+diferenciales ordinarias. M\'etodo de Euler (expl\'icito e
+impl\'icito), M\'etodos de Runge-Kutta, paso de tiempo adaptativo,
+leapfrog, integradores simpl\'ecticos.
+\\[-0.3cm]  
+
+\noindent\textbf{\textsc{Semana 3.}} 
+Ecuaciones diferenciales parciales. Diferentes esquemas de
+soluci\'on. Mec\'anica de fluidos. Leyes de conservaci\'on
+hiperb\'olicas. Riemann Solvers. M\'etodo de Godunov.
+\\[-0.3cm]  
+
+\noindent\textbf{\textsc{Semana 4.}} 
+Me\'todo de volumenes finitos multidimensional y esquemas de alto
+orden. 
+\\[-0.3cm]  
+
+\noindent\textbf{\textsc{Semana 5.}}
+Ecuaciones diferenciales estoc\'asticas. Generadores de
+n\'umeros aleatorios. Integraci\'on
+estoc\'astica. Convergencia. Estabilidad.
+\\[-0.3cm] 
+
+\noindent\textbf{\textsc{Semana 6.}} 
+M\'etodos Monte Carlo para integraci\'on y muestreo. 
+Cadenas de Markov. Termodin\'amica de sistemas
+simples. Estimaci\'on de par\'ametros. {\bf Entrega Taller 1}.
+\\[-0.3cm]  
+
+\noindent\textbf{\textsc{Semana 7.}} 
+Aprendizaje Supervisado. Árboles de Decisión, Clasificación, Ranking
+Regresión, Redes Neuronales. 
+\\[-0.3cm]  
+
+\noindent\textbf{\textsc{Semana 8.}} 
+Clustering: k-means, Jerárquico y Maximización del valor esperado.
+\\[-0.3cm] 
+
+\noindent\textbf{\textsc{Semana 9.}} 
+Reducción de Dimensionalidad y Predicción Estructurada: Principal
+Component Analysis (PCA), Multi-dimensional Scaling (MDS), Linear
+Discriminant Analysis (LDA); Modelos Gráficos, Redes Complejas y
+Análisis de datos Topológico.   
+\\[-0.3cm] 
+
+\noindent\textbf{\textsc{Semana 10.}}  
+{\bf Receso}.
+\\[-0.3cm] 
+
+\noindent\textbf{\textsc{Semana 11.}}  
+Procesamiento Natural de Lenguaje (Naïve Bayes) y Aprendizaje Profundo
+(Deep Learning). 
+\\[-0.3cm] 
+
+\noindent\textbf{\textsc{Semana 12.}}  
+Fundamentos de programaci\'on en paralelo. Taxonomia de arquitecturas
+para c\'omputo en paralelo. M\'aquinas para c\'omputo en paralelo en
+Uniandes. {\bf Entrega Taller 2}.
+\\[-0.3cm]  
+
+\noindent\textbf{\textsc{Semana 13.}} 
+Fundamentos de programaci\'on en paralelo: OpenMP
+\\[-0.3cm]  
+
+\noindent\textbf{\textsc{Semana 14.}} 
+Fundamentos de programaci\'on en paralelo: MPI
+\\[-0.3cm] 
+
+\noindent\textbf{\textsc{Semana 15.}} 
+Fundamentos de programaci\'on en paralelo: MPI
+\\[-0.3cm] 
+
+\noindent\textbf{\textsc{Semana 16.}} 
+C\'omo desplegar m\'aquinas de c\'omputo en La Nube. Ejemplos de
+aplicaci\'on en Amazon Web Services y Docker.  {\bf Entrega Taller 3 al final de la primera semana de finales}.
+\\[-0.1cm]  
+
+
+\stepcounter{mysection}
+\noindent\textbf{\large \Roman{mysection} \quad
+  Metodolog\'ia}\\[-0.2cm] 
+
+%Se describen las tecnicas y metodos para el desarrollo exitoso del curso.
+
+\noindent\normalsize Cada clase tendr\'a una corta presentaci\'on
+te\'orica (30 minutos aproximadamente) para pasar a practicar todos
+los conceptos directamente en la computadora/cluster a trav\'es de
+ejercicios de pr\'actica (50 minutos aproximadamente). \\[0.1cm]
+
+
+\stepcounter{mysection}
+\noindent\textbf{\large \Roman{mysection} \quad Criterios de
+  evaluaci\'on}\\[-0.2cm] 
+
+
+El curso tendr\'a tres entregas de trabajos, cada una con un valor
+del $(100/3) \%$ de la nota definitiva. Los temas de las entregas ser\'an
+los siguientes:
+\begin{enumerate}
+\item Ecuaciones diferenciales (ordinarias, parciales, estoc\'asticas).
+\\[-0.6cm]
+\item Machine Learning.
+\\[-0.6cm]
+\item C\'omputo en paralelo (OpenMP, MPI).
+\\[-0.2cm]
+\end{enumerate}
+
+
+\stepcounter{mysection}
+\noindent\textbf{\large \Roman{mysection} \quad
+  Bibliograf\'ia}\\[-0.2cm] 
+
+%Indicar los libros y la documentacion guia.
+
+\noindent\normalsize Bibliograf\'ia principal:
+
+\begin{itemize}
+\item R. L. Burden, J. D. Faires. \textit{Numerical analysis},
+  2011. (Biblioteca General - 519.4 B862 2011)\\[-0.6cm]
+\item A. Tveito, H.P. Langtangem, B.F. Nielsen., \textit{Elements of
+  Scientific Computing}, 2010.  (Biblioteca General, Recurso
+  Electr\'onico 510. )\\[-0.6cm] 
+\item O. Maimon and L. Rokach, \textit{The Data Mining and Knowledge
+  Discovery Handbook}, 2010. (Biblioteca General, Recurso
+  Electr\'onico 006.312)\\[-0.6cm]
+\item M. Snir, \textit{MPI : the complete reference},
+  1996. (Biblioteca General, 004.35 M637)\\[-0.6cm]
+\item J. Sanders, E. Kandrot. \textit{CUDA by example: an
+  introduction to general-purpose GPU programming}, 2010. (Biblioteca
+  General - 005.275 S152)\\[-0.2cm]
+\end{itemize} 
+
+\noindent\normalsize Bibliograf\'ia complementaria:
+
+\begin{itemize}
+\item D. Conway and J. M. White. \textit{Machine learning for
+    hackers}, 2012.\\[-0.6cm]
+\item S.Bird. \textit{Natural Language Processing with
+  Python}, 2009.\\[-0.6cm]
+\item Theano Development. \textit{Deep Learning Tutorial}
+  \url{http://deeplearning.net/tutorial/}  \\[-0.2cm]
+\end{itemize}
+
+
+\end{document}
