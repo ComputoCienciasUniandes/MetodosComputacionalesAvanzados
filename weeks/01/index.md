@@ -6,7 +6,7 @@ tags:
 redirect_from: '/weeks/'
 ---
 
-```
+```cpp
 #include <stdio.h>
 
 int main(void){
