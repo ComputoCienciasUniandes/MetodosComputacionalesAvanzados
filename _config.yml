@@ -23,3 +23,7 @@ baseurl: /MetodosComputacionalesAvanzados
 
 pages_list:      
   Semana a Semana:    'weeks'
+
+# Permalinks
+permalink:        pretty
+highlighter:         pygments
