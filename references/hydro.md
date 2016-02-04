@@ -2,3 +2,4 @@
 [General astrophysical fluids + other stuff](http://www.acsu.buffalo.edu/~phygons/cp2/index.html)
 [Simple explanation Riemann Solver](http://www.acsu.buffalo.edu/~phygons/cp2/topic7/topic7.pdf)
 [Riemann in Python](http://www.quarkgluon.com/a-one-dimensional-python-based-riemann-solver/)
+[Introduction to Riemann solvers](http://folk.uio.no/svenwe/cws2006/file/cws06_steiner_riemann.pdf)
