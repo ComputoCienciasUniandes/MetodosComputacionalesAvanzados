@@ -18,7 +18,6 @@ twitter_username: jekyllrb
 github_username:  jekyll
 
 # Build settings
-markdown:         redcarpet
 baseurl: /MetodosComputacionalesAvanzados
 
 pages_list:      
@@ -26,4 +25,4 @@ pages_list:
 
 # Permalinks
 permalink:        pretty
-highlighter:         pygments
+highlighter:         rouge
