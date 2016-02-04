@@ -25,4 +25,4 @@ pages_list:
 
 # Permalinks
 permalink:        pretty
-highlighter:         pygments
+highlighter:         rouge
