@@ -58,7 +58,7 @@ double average_sq(double *x, int n_points){
 
 double x_with_p_distribution(void){
   double x = drand48();
-  return pow(x,(2.0/3.0));
+  return pow(x,(3.0/2.0));
 }
 
 double p_distribution_value(double x){
