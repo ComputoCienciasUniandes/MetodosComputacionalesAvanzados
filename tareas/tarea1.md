@@ -9,7 +9,7 @@ de Febrero del 2016 a las 7AM.
 ## Shocktube
 
 * (N/2 puntos) Escriba un código en C que resuelva el problema del shock-tube con
- un esquema de Godunov de primer orden. Utilice las mismas variables que
+ un esquema de Godunov de primer orden utilizando la solución exacta del problema de Riemann para calcular los flujos. Utilice las mismas variables que
  se inicializaron en el [ejemplo con el esquema
  Lax-Friedrichs](https://github.com/ComputoCienciasUniandes/MetodosComputacionalesAvanzados/blob/master/weeks/03/code/shocktube.c).  
   
