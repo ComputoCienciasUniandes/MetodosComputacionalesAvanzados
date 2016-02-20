@@ -16,7 +16,7 @@ int main(int argc, char ** argv){
   int i,j;
   double r;
   double delta_E;
-  double T = 10.0;
+  double T = 10;
   double beta = 1.0/T;
   double E;
   double M;
@@ -90,8 +90,8 @@ double compute_energy(int *lattice, int n_side){
   E = 0.0;
   for(i=0;i<n_side;i++){
     for(j=0;j<n_side;j++){
-      down = (i+1)%n_side;
-      right = (j+1)%n_side;
+      down = (i+1)%(n_side);
+      right = (j+1)%(n_side);
 
       index = j + (n_side * i);
       index_down = j + (n_side * down);
@@ -122,10 +122,10 @@ void get_neighbors(int *lattice, int n_side, int index, int *neigh){
   j = index%n_side;
   i = (index-j)/n_side;
   
-  up = (i-1);if(up<0)up=n_side-up; 
-  left = (j-1);if(left<0)left=n_side-left; 
-  down = (i+1)%n_side;
-  right = (j+1)%n_side;
+  up = (i-1);if(up<0)up=n_side+up; 
+  left = (j-1);if(left<0)left=n_side+left; 
+  down = (i+1)%(n_side);
+  right = (j+1)%(n_side);
 
   
   neigh[0] =  j + (n_side * up);
