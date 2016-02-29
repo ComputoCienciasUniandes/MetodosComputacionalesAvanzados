@@ -3,3 +3,6 @@ _site
 *.aux
 *.log
 *.out
+*_step_*
+*salida
+*.ipynb_checkpoints
