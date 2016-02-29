@@ -8,9 +8,10 @@ redirect_from: '/weeks/'
 
 Esta semana empezamos con fundamentos de aprendizaje supervisado.
 
-Vamos a seguir el siguiente libro de texto [Elements of Statistical
-Learning](http://statweb.stanford.edu/~tibs/ElemStatLearn/) que se
-puede bajar gratuitamente desde la misma página.
+Vamos a seguir el libro de texto [Elements of Statistical
+Learning - ](http://statweb.stanford.edu/~tibs/ElemStatLearn/) (*ESL*) que se
+puede [bajar
+gratuitamente](http://statweb.stanford.edu/~tibs/ElemStatLearn/printings/ESLII_print10.pdf). 
 
 En cuanto a implementación de código vamos a utilizar las librerías de
 python [scikit-learn](http://scikit-learn.org/) y
@@ -20,22 +21,10 @@ de la página de cada proyecto. Si se presenta algún problema en la
 instalación pueden utilizar [SageMath en
 línea](https://cloud.sagemath.com/). 
 
+Para esta semana los objetivos son:
 
-```cpp
-#include <stdio.h>
-
-int main(void){
-  float a=0.2;
-  float b=2.0;
-  double c=0.2;
-  double d=2.0;
-
-  printf("a (single): %.20f\n", a);
-  printf("b (single): %.20f\n", b);
-  printf("c (double): %.20f\n", c);
-  printf("d (double): %.20f\n", d);
-
-  return 0;
-}
-
-```
+* Leer la Introducción de *ESL*.
+* Leer el Capítulo 2 de *ESL*
+* Reproducir las Figuras 2.1, 2.2, 2.3 y 2.4 de *ESL* usando Python y siguiendo [este
+  ejemplo escrito en
+  ```R```](http://finiterank.github.io/TESL/tresmodelos.html).
