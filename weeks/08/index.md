@@ -8,15 +8,15 @@ redirect_from: '/weeks/'
 
 Esta semana continuamos hablando de regresiones lineales.
 
-Vamos a seguir algunas partes del Capítulo 3 de [Elements of Statistical
-Learning - ](http://statweb.stanford.edu/~tibs/ElemStatLearn/) (*ESL*) que se puede [bajar
-gratuitamente en este enlace](http://statweb.stanford.edu/~tibs/ElemStatLearn/printings/ESLII_print10.pdf). 
+Vamos a seguir algunas partes del Capítulo 3 de [Introduction to Statistical
+Learning - ](http://www-bcf.usc.edu/~gareth/ISL/getbook.html) (*ISL*) que se puede [bajar
+gratuitamente en este enlace](http://www-bcf.usc.edu/~gareth/ISL/ISLR%20Fourth%20Printing.pdf). 
 
 
 
 Para los ejemplos computacionales vamos a utilizar
 * Datos en formato ```csv``` de la [página de
-  Introductio to Statistical Learning](http://www-bcf.usc.edu/~gareth/ISL/data.html). En especial los
+  ISL](http://www-bcf.usc.edu/~gareth/ISL/data.html). En especial los
   archivos ```Advertising.csv``` y ```Credit.csv```. 
 * [Notebook con ejemplo de regresión lineal para los datos de
    advertising](https://github.com/justmarkham/scikit-learn-videos/blob/master/06_linear_regression.ipynb) 
