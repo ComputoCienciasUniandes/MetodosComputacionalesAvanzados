@@ -16,7 +16,7 @@ gratuitamente en este enlace](http://statweb.stanford.edu/~tibs/ElemStatLearn/pr
 
 Para los ejemplos computacionales vamos a utilizar
 * Datos en formato ```csv``` de la [página de
-  *ESL*](http://www-bcf.usc.edu/~gareth/ISL/data.html). En especial los
+  Introductio to Statistical Learning](http://www-bcf.usc.edu/~gareth/ISL/data.html). En especial los
   archivos ```Advertising.csv``` y ```Credit.csv```. 
 * [Notebook con ejemplo de regresión lineal para los datos de
    advertising](https://github.com/justmarkham/scikit-learn-videos/blob/master/06_linear_regression.ipynb) 
