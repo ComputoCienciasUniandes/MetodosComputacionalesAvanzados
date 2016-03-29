@@ -10,8 +10,7 @@ La fecha límite de entrega es el Lunes 18 de Abril del 2016 a las 7AM.
 Learning - ](http://statweb.stanford.edu/~tibs/ElemStatLearn/) (*ESL*) que se
 puede [bajar gratuitamente](http://statweb.stanford.edu/~tibs/ElemStatLearn/printings/ESLII_print10.pdf).
 Escriba un notebook de IPython / Jupyter que reproduzca las Figuras
-2.1, 2.2, 2.3 y 2.4 de *ESL* siguiendo [este ejemplo escrito en
-  ```R```](http://finiterank.github.io/TESL/tresmodelos.html) 
+2.1, 2.2, 2.3 y 2.4 de *ESL* siguiendo [este ejemplo escrito en ```R```](http://finiterank.github.io/TESL/tresmodelos.html) 
 
 ## Vino
 
@@ -37,10 +36,13 @@ Esto  motivó a Nicholas Taleb a publicar un [video](https://www.youtube.com/wat
   dado siguen una meta-distribucion. Es decir, que si se pudiera repetir
   un experimento varias veces, y se calculara el p-value para cada
   iteración, podría encontrarse una distribucion para estos
-  p-values. Taleb concluye: _There should be no surprise that a
+  p-values. Taleb concluye: 
+
+```There should be no surprise that a
 previously deemed significant test fails during replication
 –in fact it is the replication of results deemed significant
-at a close margin that should be surprising_.
+at a close margin that should be surprising.```
+
   Escriba un notebook de IPython-Jupyter que implemente un experimento
   numérico sencillo para mostrar la meta-distribucion de
   p-values y caracterizar las propiedades (mínimo, máximo, media) en
