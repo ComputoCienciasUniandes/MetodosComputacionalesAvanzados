@@ -37,16 +37,15 @@ Esto  motivó a Nicholas Taleb a publicar un [video](https://www.youtube.com/wat
   un experimento varias veces, y se calculara el p-value para cada
   iteración, podría encontrarse una distribucion para estos
   p-values. Taleb concluye: 
-
 ```There should be no surprise that a
 previously deemed significant test fails during replication
 –in fact it is the replication of results deemed significant
 at a close margin that should be surprising.```
-
-  Escriba un notebook de IPython-Jupyter que implemente un experimento
+Escriba un notebook de IPython-Jupyter que implemente un experimento
   numérico sencillo para mostrar la meta-distribucion de
   p-values y caracterizar las propiedades (mínimo, máximo, media) en
   función del número de experimentos.  
 
-* N depende del número de integrantes, _n_, del grupo. Si _n_=1, N=140;
+### Nota
+N depende del número de integrantes, _n_, del grupo. Si _n_=1, N=140;
  si _n_=2, N=120, si _n_=3, N=100; si _n_=4, N=80; si _n_>4, N=0*
