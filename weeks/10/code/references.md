@@ -7,3 +7,5 @@
 * [Decision trees in python with scikit-learn and pandas](http://chrisstrelioff.ws/sandbox/2015/06/08/decision_trees_in_python_with_scikit_learn_and_pandas.html)
 
 * [ISLR Chapter 8: Tree-Based Methods](https://www.youtube.com/playlist?list=PL5-da3qGB5IB23TLuA8ZgVGC8hV8ZAdGh)
+
+* [Understanding Random Forests: From Theory to Practice](http://arxiv.org/abs/1407.7502)
