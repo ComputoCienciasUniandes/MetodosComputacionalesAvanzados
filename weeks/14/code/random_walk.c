@@ -23,7 +23,6 @@ void main (){
   for (i=0; i<n_walkers; i++){
      A[i] = walk(10.0, i);
   }
-
   print(A,n_walkers);
 }
 
