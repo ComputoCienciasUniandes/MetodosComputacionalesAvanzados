@@ -1,7 +1,7 @@
 # Tarea 3 (18.04.2016) 
 
 Todos los códigos deben estar en un repositorio de Github.
-La fecha límite de entrega es el Viernes 13 de Mayo del 2016 a las 7AM. 
+La fecha límite de entrega es el Viernes 13 de Mayo del 2016 a las 7AM.  
 
 ## Colapso gravitacional esférico
 
