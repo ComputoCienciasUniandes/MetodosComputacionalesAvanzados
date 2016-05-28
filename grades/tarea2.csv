@@ -1,0 +1,26 @@
+Apellidos,Nombres,N,Nmax,P1 codigo,P2 codigo,P3 Python,Nota,Repo,Comentarios
+Modelo,Estudiante,3,100.00,33.33,33.33,33.33,100.00,,
+AGUILAR MONTERO     ,JUAN GUILLERMO  ,,,,,,,,
+ANGARITA VARGAS    ,MARIO FERNANDO   ,1,140.00,46.67,30.80,15.40,92.87,https://github.com/mfangaritav/Tarea2,"P2. Que significa ""principal quiebre"" en la parte de k-clusters? . para PCA hay que renormalizar antes los datos. P3. es confuso utilizar 100 para el numero de mediciones y el numbero de experimentos.  No es claro el  rol de  "" for j in range(i+2):"" y tener un calculo de p value para *todos los experimentos* (!?) la idea era sacar un p value para cada experimento. Se nota que esta mal planteado porque para un numero alto de mediciones por experimento no se llega a p-values bajos (como se esperaria en la manera en la que esta planteado el experimento numerico)."
+ARANGO MONTOYA      ,JUAN DIEGO         ,2,120.00,40.00,40,40,120.00,https://github.com/bernalde/Tarea2,P2. Por que no llegan a algo cercano a 3 clusters con k-means?
+BARBOSA TRUJILLO   ,DIEGO ANDRES     ,2,120.00,30,40,13.2,83.2,https://github.com/durrego89/Tarea-2.git,"P1. Falta del error en training/test. P3. Esta mal planteado el experimento. En funcion de ""Ensayos"" no debe haber un p-value, sino una distribucion de P-values! Por favor no hagan show() en un notebook sin usar antes %pylab inline o %matplotlib inline!"
+BERNAL NEIRA        ,DAVID ESTEBAN   ,2,120.00,40.00,40.00,40.00,120.00,https://github.com/bernalde/Tarea2,
+BRAVO HUERTAS      ,LUIS ALFREDO     ,2,120.00,30,13.2,13.2,56.4,https://github.com/luisfe955/Tarea_2.git,"P1. Falta del error en training/test. Por favor no hagan show() en un notebook sin usar antes %pylab inline o %matplotlib inline! P2. Cuantos arboles son los optimos? Cuantos clusters son los optimos? P3. El experimento parace mal planeteado. En funcion de N_experiments deberia haber una distribucion completa de p-values, no un p-value unico."
+CALDAS RIVERA       ,SEBASTIAN       ,2,120.00,40,32,40,112,https://github.com/scaldas/MCA_Tarea2.git,"P2. En PCA falto normalizar antes los datos. P3. Stat trek! buena pagina, no la conocia. Todo se ve bien, pero todavia no logro entender como es que la meta-distribucion de los p-values es plana en este caso!"
+CRUZ WILCHES       ,LUIS FERNANDO    ,2,120.00,30,13.2,13.2,56.4,https://github.com/luisfe955/Tarea_2.git,
+DIAZ BOADA          ,JUAN SEBASTIAN  ,2,120.00,30,10,40,80,https://github.com/diitaz93/MCA-Tarea2,"P1. Este notebook cualga el computador al intentar hacer la ultima grafica. Viendo en el repositorio, esta mal igual. P2. Da un error ""name 'errors_km' is not defined"". Con K-means, como estimarian el numero optimo de clusters? en PCA no normalizaron los datos. En random forest da un error ""name 'acc' is not defined"" y tampoco dicen el numero optimo de arboles. P3. Aunque todo se ve bien todavia no logro entender porque la metadistribucion de p-values da algo plano!"
+GOMEZ BERDUGO       ,DANIEL FERNANDO ,1,140.00,23.33,15.4,7,45.73,https://github.com/DanielFGomez/Tarea2MetodosAvanzados,"P2. Con los k-clusters hay que ver cuanto se dejo de ""ganar"" a medida que se anade un cluster nuevo (una especie de derivada). P3. Donde se calcula el valor cumulativode la t-distribution para n-1 grados de libertad?"
+GONZALEZ LOZANO     ,SANDRA JIMENA   ,2,120.00,,,,0,https://github.com/JimenaGonzalez/MCA_Tarea2.git,
+HERNANDEZ CHARPAK   ,SERGIO DANIEL   ,2,120.00,,,,0,https://github.com/sercharpak/MCA_Tarea_2.git,
+LOZANO GOMEZ       ,DANIEL           ,2,120.00,,,,0,https://github.com/daniel-lozano/MCA_Tarea_2,
+MENDEZ VALDERRAMA   ,JUAN FELIPE     ,2,120.00,,,,0,https://github.com/daniel-lozano/MCA_Tarea_2,
+ORJUELA ZUÑIGA     ,JUAN DAVID       ,2,120.00,,,,0.00,https://github.com/mariacamilaremolinagutierrez/MCA_Tarea,
+PATIÑO PAZ          ,CARLOS MIGUEL   ,2,120.00,40,32,40,112,https://github.com/scaldas/MCA_Tarea2.git,
+PEDRAZA HERNANDEZ  ,ANDRES FERNANDO  ,2,120.00,,,,0,https://github.com/roelrou/Tarea_2_MCA,
+PEÑARANDA GARCIA    ,ANDRES          ,2,120.00,,,,0,,
+REMOLINA GUTIERREZ  ,MARIA CAMILA    ,2,120.00,,,,0,https://github.com/mariacamilaremolinagutierrez/MCA_Tarea,
+RODRIGUEZ URREGO   ,RONALD ELIECER   ,2,120.00,,,,0,https://github.com/roelrou/Tarea_2_MCA,
+ROJAS RIOS         ,MARIA CONSTANZA  ,1,140.00,,,,0,https://github.com/mariacrojas/Tarea-2,
+SANABRIA ORDOÑEZ   ,SEBASTIAN CAMILO ,2,120.00,,,,0,https://github.com/JimenaGonzalez/MCA_Tarea2.git,
+URREGO GONZALEZ    ,DANIEL FERNANDO  ,2,120.00,30.00,40,13.2,83.20,https://github.com/durrego89/Tarea-2.git,
+VARGAS AHUMADA   ,JUAN SEBASTIAN  ,2,120.00,30,10,40,80,https://github.com/diitaz93/MCA-Tarea2,
