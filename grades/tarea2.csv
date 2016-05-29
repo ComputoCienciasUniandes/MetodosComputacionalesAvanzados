@@ -1,4 +1,4 @@
-Apellidos,Nombres,N,max points,P1,P2,P3,Nota,Repo,Comentarios
+Apellidos,Nombres,Ngroup,max points,P1,P2,P3,Nota,Repo,Comentarios
 Modelo,Estudiante,3,100.00,33.33,33.33,33.33,100.00,,
 AGUILAR MONTERO     ,JUAN GUILLERMO  ,,,,,,,,
 ANGARITA VARGAS    ,MARIO FERNANDO   ,1,140.00,46.67,42.00,15.40,104.07,https://github.com/mfangaritav/Tarea2,"P2. Que significa ""principal quiebre"" en la parte de k-clusters? . para PCA hay que renormalizar antes los datos. P3. es confuso utilizar 100 para el numero de mediciones y el numbero de experimentos.  No es claro el  rol de  "" for j in range(i+2):"" y tener un calculo de p value para *todos los experimentos* (!?) la idea era sacar un p value para cada experimento. Se nota que esta mal planteado porque para un numero alto de mediciones por experimento no se llega a p-values bajos (como se esperaria en la manera en la que esta planteado el experimento numerico)."

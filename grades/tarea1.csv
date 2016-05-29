@@ -1,26 +1,26 @@
-Apellidos,Nombres,N,P1 C,P1 Python,P2 C,P3 Python,Nota,Repo,Comentarios
-Modelo,Estudiante,2,35.00,35.00,35.00,35.00,120.00,,
-AGUILAR MONTERO     ,JUAN GUILLERMO  ,,,,,,20,,
-ANGARITA VARGAS    ,MARIO FERNANDO   ,2,35.00,35.00,35.00,35.00,120.00,https://github.com/mfangaritav/Tarea1,
-ARANGO MONTOYA      ,JUAN DIEGO         ,2,11.67,23.33,35,33.25,83.25,https://github.com/JuanDiegoArango/Tarea-1-Arango-Mendez,"1. El makefile no compila el codigo (falta -lm). No resuelve el problema de Godunov. El programa de Python solamente hace la grafica de la solucion analitica. 2. No esta claros cuales son las graficas para comparar. Que son los 0.45, 0.46?"
-BARBOSA TRUJILLO   ,DIEGO ANDRES     ,,,,,,20,,
-BERNAL NEIRA        ,DAVID ESTEBAN   ,2,35,35,23.33,11.67,85,https://github.com/DanielFGomez/Tarea1MetodosAvanzados.git,2. El C no produce output en disco. El codigo para graficar no produce graficas.
-BRAVO HUERTAS      ,LUIS ALFREDO     ,,,,,,20,,
-CALDAS RIVERA       ,SEBASTIAN       ,2,35,35,35,33.25,118.25,https://github.com/carlosmiguelpatino/MCA_Tarea1,"2. El makefile no compila el codigo (falta -lm). Raro que, salvo la grafica de consevacion de energia, no se vean diferencias entre los algoritmos."
-CRUZ WILCHES       ,LUIS FERNANDO    ,,,,,,20,,
-DIAZ BOADA          ,JUAN SEBASTIAN  ,2,0,0,0,0,20,https://github.com/diitaz93/MCA/tree/master/tarea_1,el repositorio no existe
-GOMEZ BERDUGO       ,DANIEL FERNANDO ,2,35,35,23.33,11.67,85,https://github.com/DanielFGomez/Tarea1MetodosAvanzados.git,
-GONZALEZ LOZANO     ,SANDRA JIMENA   ,2,0,0,0,0,20,https://github.com/JimenaGonzalez/MC/tree/master/Tarea1,el repositorio no existe
-HERNANDEZ CHARPAK   ,SERGIO DANIEL   ,2,35,35,23.33,23.33,96.67,https://github.com/mariacamilaremolinagutierrez/MCA_Tarea1,"2. Todo corre, pero las graficas no tienen nada que ver con lo esperado."
-LOZANO GOMEZ       ,DANIEL           ,,,,,,20,,
-MENDEZ VALDERRAMA   ,JUAN FELIPE     ,2,11.67,23.33,35,33.25,83.25,https://github.com/JuanDiegoArango/Tarea-1-Arango-Mendez,"1. El makefile no compila el codigo (falta -lm). No resuelve el problema de Godunov. El programa de Python solamente hace la grafica de la solucion analitica. 2. No esta claros cuales son las graficas para comparar. Que son los 0.45, 0.46?"
-ORJUELA ZUÑIGA     ,JUAN DAVID       ,2,35.00,35.00,35.00,35.00,120.00,https://github.com/mfangaritav/Tarea1,
-PATIÑO PAZ          ,CARLOS MIGUEL   ,2,35,35,35,33.25,118.25,https://github.com/carlosmiguelpatino/MCA_Tarea1,"2. El makefile no compila el codigo (falta -lm). Raro que, salvo la grafica de consevacion de energia, no se vean diferencias entre los algoritmos."
-PEDRAZA HERNANDEZ  ,ANDRES FERNANDO  ,,,,,,20,,
-PEÑARANDA GARCIA    ,ANDRES          ,,,,,,20,,
-REMOLINA GUTIERREZ  ,MARIA CAMILA    ,2,35,35,23.33,23.33,96.67,https://github.com/mariacamilaremolinagutierrez/MCA_Tarea1,"2. Todo corre, pero las graficas no tienen nada que ver con lo esperado."
-RODRIGUEZ URREGO   ,RONALD ELIECER   ,,,,,,20,,
-ROJAS RIOS         ,MARIA CONSTANZA  ,,,,,,20,,
-SANABRIA ORDOÑEZ   ,SEBASTIAN CAMILO ,2,0,0,0,0,20,https://github.com/JimenaGonzalez/MC/tree/master/Tarea1,el repositorio no existe
-URREGO GONZALEZ    ,DANIEL FERNANDO  ,1,11.67,11.67,35,33.25,91.58,https://github.com/durrego89/Tarea1-,"1. Hay codigo fuente, pero no hay makefile para compilar, ejecutar y hacer las graficas. 2. El makefile no compila el codigo (falta -lm) Algunas graficas traen nombres y labels contradictorios. Cuales zoom comparables con cuales?"
-VARGAS AHUMADA   ,JUAN SEBASTIAN  ,2,0,0,0,0,20,https://github.com/diitaz93/MCA/tree/master/tarea_1,el repositorio no existe
+Apellidos,Nombres,Ngroup,Max points,P1 C,P1 Python,P2 C,P3 Python,Nota,Repo,Comentarios
+Modelo,Estudiante,1,140,35.0,35.0,35.0,35.0,140.0,,
+AGUILAR MONTERO     ,JUAN GUILLERMO  ,,,,,,,,,
+ANGARITA VARGAS    ,MARIO FERNANDO   ,2,120,30.0,30.0,30.0,30.0,120.0,https://github.com/mfangaritav/Tarea1,
+ARANGO MONTOYA      ,JUAN DIEGO         ,2,120,9.9,19.8,30.0,28.5,88.2,https://github.com/JuanDiegoArango/Tarea-1-Arango-Mendez,"1. El makefile no compila el codigo (falta -lm). No resuelve el problema de Godunov. El programa de Python solamente hace la grafica de la solucion analitica. 2. No esta claros cuales son las graficas para comparar. Que son los 0.45, 0.46?"
+BARBOSA TRUJILLO   ,DIEGO ANDRES     ,1,140,0.0,0.0,35.0,9.9,44.9,https://github.com/dabarbosa10/RK4-Symplectic.git,"P2. Hay dos makefiles, ejecute el .3. No existe el script .py para hacer las graficas, pero asumo que las graficas del repositorio fueron hechas con ese script faltante."
+BERNAL NEIRA ,DAVID ESTEBAN,2,120,30.0,30.0,30.0,30.0,120.0,https://github.com/DanielFGomez/Tarea1MetodosAvanzados.git,
+BRAVO HUERTAS      ,LUIS ALFREDO     ,2,120,19.8,19.8,0.0,0.0,39.6,https://github.com/luisfe955/Shocktubex,P1. El programa da nan. Solamente se grafican las condiciones iniciales. P2. No hay nada.
+CALDAS RIVERA       ,SEBASTIAN       ,2,120,30.0,30.0,30.0,28.5,118.5,https://github.com/carlosmiguelpatino/MCA_Tarea1,"2. El makefile no compila el codigo (falta -lm). Raro que, salvo la grafica de consevacion de energia, no se vean diferencias entre los algoritmos."
+CRUZ WILCHES       ,LUIS FERNANDO    ,2,120,19.8,19.8,0.0,0.0,39.6,https://github.com/luisfe955/Shocktubex,
+DIAZ BOADA          ,JUAN SEBASTIAN  ,2,120,30.0,30.0,30.0,10.0,100.0,https://github.com/diitaz93/MCA/tree/master/tarea_1,"P2. Un pdf de 9 Megas? Las figuras parecen ser todos los puntos, no un corte en el espacio de fase."
+GOMEZ BERDUGO       ,DANIEL FERNANDO ,2,120,30.0,30.0,30.0,30.0,120.0,https://github.com/DanielFGomez/Tarea1MetodosAvanzados.git,
+GONZALEZ LOZANO     ,SANDRA JIMENA   ,2,120,30.0,30.0,30.0,30.0,120.0,https://github.com/JimenaGonzalez/MCA_Tarea1,
+HERNANDEZ CHARPAK   ,SERGIO DANIEL   ,2,120,30.0,30.0,20.0,20.0,100.0,https://github.com/mariacamilaremolinagutierrez/MCA_Tarea1,"2. Todo corre, pero las graficas no tienen nada que ver con lo esperado."
+LOZANO GOMEZ       ,DANIEL           ,2,120,20.0,30.0,30.0,30.0,110.0,https://github.com/daniel-lozano/MCA_tarea1,1. El programa en C se demora mas de un minuto en correr y produce resultados que no tienen nada que ver con la solucion analitica.
+MENDEZ VALDERRAMA   ,JUAN FELIPE     ,2,120,9.9,19.8,30.0,28.5,88.2,https://github.com/JuanDiegoArango/Tarea-1-Arango-Mendez,"1. El makefile no compila el codigo (falta -lm). No resuelve el problema de Godunov. El programa de Python solamente hace la grafica de la solucion analitica. 2. No esta claros cuales son las graficas para comparar. Que son los 0.45, 0.46?"
+ORJUELA ZUÑIGA     ,JUAN DAVID       ,2,120,30.0,30.0,30.0,30.0,120.0,https://github.com/mfangaritav/Tarea1,
+PATIÑO PAZ          ,CARLOS MIGUEL   ,2,120,30.0,30.0,30.0,28.5,118.5,https://github.com/carlosmiguelpatino/MCA_Tarea1,"2. El makefile no compila el codigo (falta -lm). Raro que, salvo la grafica de consevacion de energia, no se vean diferencias entre los algoritmos."
+PEDRAZA HERNANDEZ  ,ANDRES FERNANDO  ,2,120,20.0,20.0,30.0,30.0,100.0,https://github.com/roelrou/Primer_punto_riemann https://github.com/roelrou/segundo_punto_tres_cuerpos,1. El  programa en C produce 'nan'. El programa en Python solamente grafica la condicion inicial.
+PEÑARANDA GARCIA    ,ANDRES          ,2,120,20.0,30.0,30.0,30.0,110.0,https://github.com/daniel-lozano/MCA_tarea1,
+REMOLINA GUTIERREZ  ,MARIA CAMILA    ,2,120,30.0,30.0,20.0,20.0,100.0,https://github.com/mariacamilaremolinagutierrez/MCA_Tarea1,"2. Todo corre, pero las graficas no tienen nada que ver con lo esperado."
+RODRIGUEZ URREGO   ,RONALD ELIECER   ,2,120,20.0,20.0,30.0,30.0,100.0,https://github.com/roelrou/Primer_punto_riemann https://github.com/roelrou/segundo_punto_tres_cuerpos,
+ROJAS RIOS         ,MARIA CONSTANZA  ,,,,,,,,,
+SANABRIA ORDOÑEZ   ,SEBASTIAN CAMILO ,2,120,30.0,30.0,30.0,30.0,120.0,https://github.com/JimenaGonzalez/MCA_Tarea1,
+URREGO GONZALEZ    ,DANIEL FERNANDO  ,1,140,11.7,11.7,35.0,33.3,91.6,https://github.com/durrego89/Tarea1-,"1. Hay codigo fuente, pero no hay makefile para compilar, ejecutar y hacer las graficas. 2. El makefile no compila el codigo (falta -lm) Algunas graficas traen nombres y labels contradictorios. Cuales zoom comparables con cuales?"
+VARGAS AHUMADA   ,JUAN SEBASTIAN  ,2,120,30.0,30.0,30.0,10.0,100.0,https://github.com/diitaz93/MCA/tree/master/tarea_1,"P2. Un pdf de 9 Megas? Las figuras parecen ser todos los puntos, no un corte en el espacio de fase."
