@@ -5,4 +5,7 @@
 [Introduction to Riemann solvers](http://folk.uio.no/svenwe/cws2006/file/cws06_steiner_riemann.pdf)  
 [Shock tube problem details](http://www.astro.uu.se/~hoefner/astro/teach/ch10.pdf)  
 [Detail Riemman solution](http://www.mpia.de/homes/dullemon/lectures/hydrodynamicsII/chap_6.pdf)  
-[Nektar++, code for compressible flow simulation](http://www.nektar.info/)  
+
+[Nektar++, code for compressible flow simulation](http://www.nektar.info/)   
+
+* [A simple python-based tutorial on computational methods for hydrodynamics http://zingale.github.io/pyro2](https://github.com/zingale/pyro2)  
