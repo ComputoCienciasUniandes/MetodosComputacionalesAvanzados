@@ -5,3 +5,5 @@
 * [Scikit-learn videos and notebooks ofr ISLR](https://github.com/justmarkham/scikit-learn-videos)
 
 * [How to Use t-SNE Effectively](http://distill.pub/2016/misread-tsne/)Although extremely useful for visualizing high-dimensional data, t-SNE plots can sometimes be mysterious or misleading. By exploring how it behaves in simple cases, we can learn to use it more effectively
+
+* [Variational Inference: Foundations and Modern Methods](http://www.cs.columbia.edu/~blei/talks/2016_NIPS_VI_tutorial.pdf) A primer.
