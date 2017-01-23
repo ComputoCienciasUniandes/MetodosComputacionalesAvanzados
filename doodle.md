@@ -1,1 +1,1 @@
-(http://doodle.com/poll/vidrrc8958zgka4a)[doodle]
+[doodle](http://doodle.com/poll/vidrrc8958zgka4a)
