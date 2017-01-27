@@ -7,9 +7,9 @@ int main(void){
 
   min = 1073741824;
   
-  for (id=min;id<min+10;id++){
+  for (id=min;id<min+20;id++){
     x = (*(float*)&id);
-    printf("%e\n", x);
+    printf("%.25e\n", x);
   }
 
   return 0;
