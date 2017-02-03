@@ -1,0 +1,1 @@
+[Scatter, Gather, AllGather](http://mpitutorial.com/tutorials/mpi-scatter-gather-and-allgather/) 
