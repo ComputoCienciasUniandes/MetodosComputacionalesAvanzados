@@ -11,9 +11,8 @@ int main(int argc, char **argv){
   MPI_Init(NULL, NULL);
   MPI_Comm_rank(MPI_COMM_WORLD, &rank);
 
-  out_number = 42;
-
   if(rank==0){
+    out_number = 42;    
     destination = 1;
     source = 1;
     MPI_Recv(&in_number, 1, MPI_INT, source, 0, MPI_COMM_WORLD, MPI_STATUS_IGNORE);
@@ -21,6 +20,7 @@ int main(int argc, char **argv){
    
     printf("proc %d sent %d (received by proc %d)\n", source, in_number, rank);
   }else if (rank==1){
+    out_number = 24;    
     destination = 0;
     source = 0;    
     MPI_Recv(&in_number, 1, MPI_INT, source, 0, MPI_COMM_WORLD, MPI_STATUS_IGNORE);
