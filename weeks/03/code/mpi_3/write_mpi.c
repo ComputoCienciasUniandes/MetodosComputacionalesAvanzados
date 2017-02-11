@@ -11,7 +11,6 @@ int main(int argc, char **argv){
   MPI_Comm_rank(MPI_COMM_WORLD, &rank);
   MPI_Comm_size(MPI_COMM_WORLD, &size);
 
-
   if(rank==0){
     out = fopen("file.dat", "w");
     fclose(out);
@@ -19,7 +18,7 @@ int main(int argc, char **argv){
   MPI_Barrier( MPI_COMM_WORLD );
 
   n_points = 5;
-  data  = malloc(sizeof(float) * n_points);
+  data  = malloc(n_points * sizeof(float));
   for(i=0;i<n_points;i++){
     data[i] = rank;
   }
