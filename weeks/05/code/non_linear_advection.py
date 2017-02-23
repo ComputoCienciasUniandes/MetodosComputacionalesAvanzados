@@ -18,8 +18,8 @@ def Lax(u, t_max=0.45, delta_t = 0.015, delta_x=5.0):
     u_final = u.copy()
     for i in range(N_t):
         F = flux(u)
-        u_final[1:-1] = 0.5*(u[1:-1] + u[0:-2]) 
-        u_final[1:-1] -= (0.5*delta_t/delta_x)*(F[1:-1] - F[0:-2]) 
+        u_final[1:-1] = 0.5*(u[2:] + u[0:-2]) 
+        u_final[1:-1] -= (0.5*delta_t/delta_x)*(F[2:] - F[0:-2]) 
         u = u_final.copy()
     return u_final
 
