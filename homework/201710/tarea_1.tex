@@ -71,15 +71,16 @@ a su posici\'on de equilibrio est\'an descritos por
 Tomando condiciones de contorno fijas $x_{0}=x_{N-1}=0$, modele el comportamiento
 de este s\'olido unidimensional un tiempo total de evoluci\'on $T=5.0N^{2.2}$
 usando $\beta=1.0$ y $N=64$. La condici\'on inicial debe ser
-$x_n = \sin(2\pi n/(N-1))$. La integraci\'on
+$x_n = \sin(\pi n/(N-1))$. La integraci\'on
 temporal debe hacerse con un m\'etodo leapfrog y $\Delta t=5\times 10^{-3}$.
 
-El c\'odigo debe producir como resultado un archivo de las posiciones
-de cada uno de los \'atomos para $1000$ instantes equiespaciados
-temporalmente.
+El c\'odigo debe producir como resultado un archivo de la energ\'ia en los modos $k=1,2,3$ de toda la cadena para $1000$ instantes equiespaciados
+temporalmente (ver las referencias para tener la expresi\'on
+expl\'icita de $E_k$).
+
 Luego un archivo de python debe leer este archivo de salida para
-producir una gr\'afica de $x$ en funci\'on del tiempo (i.e. una imagen
-de tama\~no $N\times N$). 
+producir una gr\'afica de $E_k$ en funci\'on del tiempo para estos
+primeros tres modos.  
 
 Referencias sobre este problema\\
 \url{http://www.scholarpedia.org/article/Fermi-Pasta-Ulam_nonlinear_lattice_oscillations}\\
