@@ -1,0 +1,60 @@
+Apellidos Nombres,C,Python,Makefile,Script,Github,Total,Comentarios
+EJEMPLO ALUMNA,60,10,10,10,10,100,
+ACOSTA PENALOZA                 JOSE ALFONSO,,,,,,0,
+ARIZA MEJIA                     JUAN FELIPE,60,3,10,10,10,93,
+BARBOSA COY                     JUAN SEBASTIAN,60,3,10,10,10,93,
+FRANCO ULLOA                    SEBASTIAN,18,3,3,10,10,44,"El makefile da un error: gcc placas.c -o salida.x
+placas.c:3:17: fatal error: mpi.h: No such file or directory. Luego de compilar con mpicc el codigo da un segfault.
+"
+GALLEGO GALLON                  JUAN CAMILO,,,,,,0,
+GIRALDO LOZANO                  JUAN CAMILO,18,3,3,10,10,44,
+GONZALEZ ORTIZ                  CRISTHIAN EDUARDO,48,3,3,10,10,74,"El makefile da un error OSError: v0.txt not found.
+make: *** [placas.pdf] Error 1
+
+El Send/Recv de a un numero por numero es muy ineficiente.
+
+El codigo de python da un error y solamente funciona para 4 procesadores.
+
+El codigo de C solamente funciona para 4 procesadores."
+GUTIERREZ PULGARIN              SERGIO STEVEN,0,0,0,0,0,0,No hay ningun repositorio con el codigo.
+HENRIQUEZ BERNAL                DAVID ALEJANDRO,,,,,,0,
+JAUREGUI SARMIENTO              NESTOR IVAN,,,,,,0,
+LAGUNA GUANTIVA                 MATEO,18,3,10,8,3,42,"En el repositorio no estan los codigos, estan los archivos de respaldo de emacs (los *~).
+El makefile ejecuta automatica en 8 procesadores.
+El codigo en C solamente funciona en 4 procesadores. Para que son las reservas en memoria de 100 millones de elementos? Solamente 90mil iteraciones? Al final el codigo da un error."
+LOPEZ RAMIREZ                   JUAN CAMILO,60,3,10,10,10,93,"El programa en Python falla con RuntimeError: Invalid DISPLAY variable
+make: *** [placas.pdf] Error 1
+"
+MARIN JIMENEZ                   NATHAN MATEO,60,3,3,10,10,86,"El makefile da un error: mv out.o* datos.dat
+mv: cannot stat `out.o*': No such file or directory
+make: *** [datos.dat] Error 1.
+LOL: ""//procesadores jodidos porque les tocaron las placas"". No es muy elegante la solucion llenas de if(world_size==N), ni los pli, plif...etc
+El codigo de python no corre."
+NINO CHAPARRO                   ALEJANDRO,18,3,10,10,10,51,El codigo da un segfault.
+ROMERO CORREA                   DANIEL,18,3,10,10,10,51,
+TORROLEDO PE?A                  IVAN DARIO,60,3,3,10,3,79,"El makefile da error     raise RuntimeError('Invalid DISPLAY variable')
+RuntimeError: Invalid DISPLAY variable
+make: *** [grafica.png] Error 1
+El repositorio tiene dos versiones de los codigos.
+  Error del script de python File ""/lustre/apps/anaconda/3/lib/python3.5/site-packages/matplotlib/backends/backend_qt5.py"", line 138, in _create_qApp
+    raise RuntimeError('Invalid DISPLAY variable')
+RuntimeError: Invalid DISPLAY variable
+"
+VELASQUEZ GARCIA                ARTURO,,,,,,0,
+VELASQUEZ MOROS                 FELIPE,48,3,10,10,10,81,
+AGUILAR MONTERO                 JUAN GUILLERMO,60,3,3,10,3,79,
+PRADA GONZALEZ                  JESUS DAVID,54,3,6,10,3,76,"Hay dos versiones de los codigos en el repositorio. El makefile envia al encolador justo despues de compilar. El codigo de python da un error RuntimeError: Invalid DISPLAY variable
+, el codigo en C tiene condiciones incorrectas de contorno: dos placas positivas en lugar de dos placas negativas"
+RIVERA LOZANO                   CAMILO ANDRES,60,3,3,10,10,86,"El makefile da un error make: *** No rule to make target `output.txt', needed by `Potential_4.png'.  Stop. 
+El script de python da un error RuntimeError: Invalid DISPLAY variable
+
+"
+SUAREZ PEREZ                    JOHN FREDY,36,3,3,10,10,62,"El programa en C es muy ineficiente con send/recv adentro de cada loop de i,j! DEspues de 10 minutos y 16 procesadores no hay respuesta. 
+Con 8 procesadore y N=128 al fin hay una respuesta en un tiempo razonable pero la solucion no parece correcta.
+El makefile no tiene las intrucciones para hacer la grafica. El makefile envia al encolador justo despues de la compilacion. 
+El programa de python da un error RuntimeError: Invalid DISPLAY variable
+"
+VELASQUEZ MOROS                 ANDREA,48,3,10,10,10,81,"El codigo al parecer solamente funciona con 4 procesadores. El codigo de python da error     raise RuntimeError('Invalid DISPLAY variable')
+RuntimeError: Invalid DISPLAY variable
+make: *** [plot] Error 1
+"
