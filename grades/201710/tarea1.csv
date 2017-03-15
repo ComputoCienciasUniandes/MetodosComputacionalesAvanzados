@@ -3,7 +3,7 @@ EJEMPLO ALUMNA,60,20,20,10,10,120,
 ACOSTA PENALOZA                 JOSE ALFONSO,60,6,6,10,10,92,
 ARIZA MEJIA                     JUAN FELIPE,60,20,10,10,120,0,
 BARBOSA COY                     JUAN SEBASTIAN,60,20,20,10,10,120,
-FRANCO ULLOA                    SEBASTIAN,60,6,6,3,10,85,"Error make: *** [energias.txt] Error 88, por falta de return 0 en el main(); Error de Python: Traceback (most recent call last):
+FRANCO ULLOA                    SEBASTIAN,54,6,6,3,10,79,"Error make: *** [energias.txt] Error 88, por falta de return 0 en el main(); Error de Python: Traceback (most recent call last):
   File ""plot.py"", line 3, in <module>
     import imageio #Para hacer el gif
 ImportError: No module named 'imageio'
@@ -19,7 +19,7 @@ make: *** [fout.png] Error 1
 "
 HENRIQUEZ BERNAL                DAVID ALEJANDRO,30,6,6,3,10,55,el numero de threads no es el correcto (utiliza todos los procesadores disponibles en el cluster). el contador de tiempo se resetea cada vez que empieza una iteracion en el tiempo. Las resultados de energia no son los correctos. Errorres de python: RuntimeError: Invalid DISPLAY variable
 JAUREGUI SARMIENTO              NESTOR IVAN,,,,,,0,
-LAGUNA GUANTIVA                 MATEO,60,6,6,3,10,85,
+LAGUNA GUANTIVA                 MATEO,54,6,6,3,10,79,
 LOPEZ RAMIREZ                   JUAN CAMILO,60,20,20,10,10,120,
 MARIN JIMENEZ                   NATHAN MATEO,60,6,6,10,10,92,Error de python RuntimeError: Invalid DISPLAY variable
 NINO CHAPARRO                   ALEJANDRO,54,6,6,3,10,79,make: *** [tiempo.pdf] Error 1
