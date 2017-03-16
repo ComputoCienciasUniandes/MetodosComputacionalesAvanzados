@@ -13,7 +13,7 @@ GIRALDO LOZANO                  JUAN CAMILO,30,6,6,3,10,55,"El makefile da un er
 Error de Python RuntimeError: Invalid DISPLAY variable
 make: *** [energias.pdf] Error 1. Lo que esta implementado no es un leapfrog, es un Euler con errores.
 "
-GONZALEZ ORTIZ                  CRISTHIAN EDUARDO,,,,,,0,
+GONZALEZ ORTIZ                  CRISTHIAN EDUARDO,60,20,20,10,10,120,
 GUTIERREZ PULGARIN              SERGIO STEVEN,60,6,6,10,10,92,"Error de Python RuntimeError: Invalid DISPLAY variable
 make: *** [fout.png] Error 1
 "
