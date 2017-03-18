@@ -50,10 +50,10 @@ int main(int argc, char **argv){
       v[n] += F_x * delta_t * 0.5;
     }
     
-    E_k_1 = energy(x, v, N, 1);
-    E_k_2 = energy(x, v, N, 2);
-    E_k_3 = energy(x, v, N, 3);
     if(!(t%((int)(T)/1000))){
+      E_k_1 = energy(x, v, N, 1);
+      E_k_2 = energy(x, v, N, 2);
+      E_k_3 = energy(x, v, N, 3);      
       printf("%d %e %e %e\n", t, E_k_1, E_k_2, E_k_3);
     }
   }  
