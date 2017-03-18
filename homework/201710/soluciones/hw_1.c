@@ -14,7 +14,7 @@ FLOAT energy(FLOAT *x, FLOAT *v, int m, int k);
 int main(int argc, char **argv){
   FLOAT delta_t  = 5E-3; 
   int N = 64;
-  FLOAT T = 5.0 * pow(N,2.2)/10.0;
+  FLOAT T = 5.0 * pow(N,2.2);
   int N_T = T/delta_t;  
   FLOAT E_k_1 = 0.0;
   FLOAT E_k_2 = 0.0;
@@ -50,7 +50,7 @@ int main(int argc, char **argv){
       v[n] += F_x * delta_t * 0.5;
     }
     
-    if(!(t%((int)(T)/1000))){
+    if(!(t%(N_T/1000))){
       E_k_1 = energy(x, v, N, 1);
       E_k_2 = energy(x, v, N, 2);
       E_k_3 = energy(x, v, N, 3);      
