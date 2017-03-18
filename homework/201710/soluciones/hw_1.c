@@ -4,7 +4,7 @@
 #include <omp.h>
 
 #define PI 3.141592653589793
-#define FLOAT float
+#define FLOAT double
 #define BETA 1.0
 
 void initialize(FLOAT *x, FLOAT *v, int N);
