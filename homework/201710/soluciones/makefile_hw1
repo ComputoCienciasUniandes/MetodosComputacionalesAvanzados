@@ -1,0 +1,18 @@
+all: data1.txt data2.txt data4.txt
+
+data1.txt: hw_1
+	time ./hw_1 1 > data1.txt
+
+data2.txt: hw_1
+	time ./hw_1 2 > data2.txt
+
+data4.txt: hw_1
+	time ./hw_1 4 > data4.txt
+
+hw_1: hw_1.c
+	gcc hw_1.c -o hw_1 -fopenmp -lm
+
+clean:
+	rm -f data*.txt
+	rm -f hw_1
+	rm -f *~
