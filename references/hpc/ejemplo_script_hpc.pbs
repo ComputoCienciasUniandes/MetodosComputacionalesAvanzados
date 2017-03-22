@@ -1,0 +1,81 @@
+################################
+########## Heading #############
+# This tells the terminal to use \emph{bash as the interpreter
+#!/bin/bash
+# This is a comment. The heading of the script must include
+# instructions to the scheduler. The arguments begin with #PBS and
+# the options
+
+# In case you need to specify requirements you can also use these limits
+# to set the exact amount of resources to be used. For example 6 processors
+# distributed in a single amd node, 50GB of RAM and 3 days of computing time.
+#PBS -l nodes=1:ppn=6:amd
+#PBS -l mem=50gb
+#PBS -l walltime=72:00:00
+
+
+# This remaining directives specify the shell to use, our email and notification
+# settings as well as the name for our job, and the stdout and stderr (-j) output to
+# a text file with name (-o)
+#PBS -S /bin/bash
+#PBS -M user@uniandes.edu.co
+#PBS -m abe
+#PBS -N test1_gromacs
+#PBS -j oe
+#PBS -o job.log
+
+
+# Create a temporary directory locally on the node optimizes I/O performance
+TEMP_DIR=/state/partition1/$USER/$PBS_JOBNAME.${PBS_JOBID%.clustermaster.uniandes.edu.co}
+# Create the directory to store the computation output. For example
+# results inside the working directory.
+OUT_DIR=$PBS_O_WORKDIR/results
+
+
+# Creates a script log with the following information:
+SCRIPT_LOG=$PBS_O_WORKDIR/$PBS_JOBNAME.${PBS_JOBID%.clustermaster.uniandes.edu.co}.log
+touch $SCRIPT_LOG
+
+# Now store the information into the script log
+echo "Job started on" `hostname` `date` >> $SCRIPT_LOG
+echo "#####################################" >> $SCRIPT_LOG
+echo "PBS working directory: $PBS_O_WORKDIR" >> $SCRIPT_LOG
+echo "Current directory:" `pwd` >> $SCRIPT_LOG
+echo "Temporary directory: "$TEMP_DIR >> $SCRIPT_LOG
+echo "Output directory: "$OUT_DIR >> $SCRIPT_LOG
+echo "#####################################" >> $SCRIPT_LOG
+echo "User: $PBS_O_LOGNAME" >>$SCRIPT_LOG
+echo "Batch job started on $PBS_O_HOST" >>$SCRIPT_LOG
+echo "PBS job id: $PBS_JOBID" >>$SCRIPT_LOG
+echo "PBS job name: $PBS_JOBNAME" >>$SCRIPT_LOG
+echo "PBS environment: $PBS_ENVIRONMENT" >>$SCRIPT_LOG
+echo "#####################################" >> $SCRIPT_LOG
+echo  >>$SCRIPT_LOG
+echo "#####################################" >> $SCRIPT_LOG
+echo "#####################################" >> $SCRIPT_LOG
+echo "Full Environment:" >> $SCRIPT_LOG
+printenv >> $SCRIPT_LOG
+echo "#####################################" >> $SCRIPT_LOG
+echo  >> $SCRIPT_LOG
+echo "The Job is being executed on the following node:" >> $SCRIPT_LOG
+cat ${PBS_NODEFILE} >> $SCRIPT_LOG
+
+
+mkdir -p $TEMP_DIR
+mkdir -p $OUT_DIR
+cp -Rf $PBS_O_WORKDIR/important_file(s) $TEMP_DIR/.
+
+
+# We need to load the Gromacs v4.6.5 module
+module load gromacs/4.6.5
+
+# execute gromacs using the configuration file config.txt
+cd $TEMP_DIR
+grompp config_file
+
+
+cd $OUT_DIR
+mv -f $TEMP_DIR ./
+# OPTIONAL (If you selected Body Part II): Output the finishing
+# date on the script log
+echo "Job Finished: " `date` >> $SCRIPT_LOG
