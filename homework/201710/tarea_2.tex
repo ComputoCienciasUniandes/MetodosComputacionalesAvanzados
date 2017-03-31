@@ -29,7 +29,7 @@
 \begin{document}
 \begin{center}
 {\Large Universidad de los Andes - M\'etodos Computacionales Avanzados} \\
-Tarea 2 - \textsc{MPI}\\
+Tarea 2 - \textsc{Ecuaciones Diferenciales Parciales}\\
 31-03-2017\\
 \end{center}
 
@@ -40,13 +40,13 @@ Tarea 2 - \textsc{MPI}\\
 La soluci\'on a este ejercicio debe subirse por SICUA antes de las 6:00PM
 del viernes 28 de abril del 2017. 
 Los c\'odigos deben encontrarse en un unico repositorio de \verb'github'
-con el nombre \verb"NombreApellido_Tarea1". Por ejemplo yo deber\'ia
-subir crear un repositorio con el nombre \verb"JaimeForero_Tarea1". 
+con el nombre \verb"NombreApellido_Tarea2". Por ejemplo yo deber\'ia
+subir crear un repositorio con el nombre \verb"JaimeForero_Tarea2". 
 
 \noindent
 En el repositorio deben estar los siguientes elementos.
 \begin{itemize}
-\item (60 puntos) Un c\'odigo fuente en C paralelizado que resuelve
+\item (60 puntos) Un c\'odigo fuente en C que resuelve
   las ecuaciones diferenciales (20 puntos para Shock y 40 puntos para
   Sedov) y produce datos.  
 \item (40 puntos) Un c\'odigo en Python que lee los datos producidos por el
@@ -59,6 +59,8 @@ En el repositorio deben estar los siguientes elementos.
 \end{itemize}
 \item (10 puntos) Un archivo de texto (\verb"README") con nombres completos y c\'odigos de los integrantes (m\'inimo dos personas, m\'aximo tres personas).
 \end{itemize}
+NOTA: Todos los c\'odigos ser\'an ejecutados en una sesi\'on
+interactiva de clustergate.
 
 \vspace{0.3cm}
 
@@ -72,12 +74,25 @@ $u(x,0)=0$.
 
 Utilice m\'etodos de diferencias finitas con un esquema de
 Lax-Wendroff para resolver las ecuaciones de Euler hasta que la
-discontinuidad en la velocidad llegue a $x=0.9$. El c\'odigo de Python
-debe graficar el estado final para la densidad, presi\'on y velocidad
-junto a la soluci\'on anal\'itica.
+discontinuidad en la velocidad llegue a $x=0.9$.
 
+El c\'odigo de Python debe graficar el estado final para la densidad,
+presi\'on y velocidad junto a la soluci\'on anal\'itica.
+ 
 \question{\bf{Explosion de Sedov}}
 
+Considere un cubo de 256 metros de lado lleno de aire a una
+temperatura de $300 K$ y presi\'on atmosf\'erica.
+En el centro de este cubo se liberan $10^{12}$ Joules en una regi\'on
+c\'ubica de 2 metros de lado. Siga la evoluci\'on de la onda de choque
+hasta que su radio sea igual a 120 metros.
+
+Para resolver las ecuaciones de Euler utilice m\'etodos de vol\'umenes
+finitos y una malla cartesiana regular con espaciado de $2$ metros en
+cada direcci\'on. 
+
+El c\'odigo de Python debe graficar el estado final de la densidad
+promedio en la direcci\'on radial como funci\'on del radio. 
 
 \end{questions}
 \end{document}
