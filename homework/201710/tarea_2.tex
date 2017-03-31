@@ -1,0 +1,84 @@
+
+%--------------------------------------------------------------------
+%--------------------------------------------------------------------
+% Formato para los talleres del curso de Métodos Computacionales
+% Universidad de los Andes
+%--------------------------------------------------------------------
+%--------------------------------------------------------------------
+
+\documentclass[11pt,letterpaper]{exam}
+\usepackage{amsmath}
+\usepackage[utf8]{inputenc}
+\usepackage[spanish]{babel}
+\usepackage{graphicx}
+\usepackage{tabularx}
+\usepackage[absolute]{textpos} % Para poner una imagen completa en la portada
+\usepackage{hyperref}
+\usepackage{float}
+
+\newcommand{\base}[1]{\underline{\hspace{#1}}}
+\boxedpoints
+\pointname{ pt}
+
+\extraheadheight{-0.15in}
+
+\newcommand\upquote[1]{\textquotesingle#1\textquotesingle} % To fix straight quotes in verbatim
+
+
+
+\begin{document}
+\begin{center}
+{\Large Universidad de los Andes - M\'etodos Computacionales Avanzados} \\
+Tarea 2 - \textsc{MPI}\\
+31-03-2017\\
+\end{center}
+
+\vspace{0.3cm}
+
+
+\noindent
+La soluci\'on a este ejercicio debe subirse por SICUA antes de las 6:00PM
+del viernes 28 de abril del 2017. 
+Los c\'odigos deben encontrarse en un unico repositorio de \verb'github'
+con el nombre \verb"NombreApellido_Tarea1". Por ejemplo yo deber\'ia
+subir crear un repositorio con el nombre \verb"JaimeForero_Tarea1". 
+
+\noindent
+En el repositorio deben estar los siguientes elementos.
+\begin{itemize}
+\item (60 puntos) Un c\'odigo fuente en C paralelizado que resuelve
+  las ecuaciones diferenciales (20 puntos para Shock y 40 puntos para
+  Sedov) y produce datos.  
+\item (40 puntos) Un c\'odigo en Python que lee los datos producidos por el
+  c\'odigo en C y produce visualizaciones.
+\item (10 puntos) Un makefile que:
+\begin{itemize}
+\item compila el c\'odigo en C (\verb"make exec").
+\item ejecuta el c\'odigo (\verb"make shock", \verb"make sedov").
+\item produce graficas en Python (\verb"make plotshock", \verb"make plotsedov").
+\end{itemize}
+\item (10 puntos) Un archivo de texto (\verb"README") con nombres completos y c\'odigos de los integrantes (m\'inimo dos personas, m\'aximo tres personas).
+\end{itemize}
+
+\vspace{0.3cm}
+
+\begin{questions}
+\question{\bf{Tubo de Shock}}
+
+Considere un tubo unidimensional de longitud $L=1$ con condiciones
+iniciales de densidad $\rho(x\leq 0.5,t=0)=1.0$ y $\rho(x>0.5,t=0)$,
+presion $p(x\leq0.5, t=0)=1.0$ y $p(x>0.5,t=0)=0.1$, velocidad
+$u(x,0)=0$.
+
+Utilice m\'etodos de diferencias finitas con un esquema de
+Lax-Wendroff para resolver las ecuaciones de Euler hasta que la
+discontinuidad en la velocidad llegue a $x=0.9$. El c\'odigo de Python
+debe graficar el estado final para la densidad, presi\'on y velocidad
+junto a la soluci\'on anal\'itica.
+
+\question{\bf{Explosion de Sedov}}
+
+
+\end{questions}
+\end{document}
+
