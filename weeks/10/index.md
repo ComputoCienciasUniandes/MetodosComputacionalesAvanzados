@@ -2,13 +2,7 @@
 
 Esta semana continuamos hablando de regresiones lineales.
 
-Vamos a seguir algunas partes del Capítulo 3 y 6 de [Introduction to Statistical
-Learning - ](http://www-bcf.usc.edu/~gareth/ISL/getbook.html) (*ISL*) que se puede [bajar
-gratuitamente en este enlace](http://www-bcf.usc.edu/~gareth/ISL/ISLR%20Fourth%20Printing.pdf). 
-
-
-
-Para los ejemplos computacionales vamos a utilizar
+Ejemplos computacionales
 * Datos en formato ```csv``` de la [pagina de ISL](http://www-bcf.usc.edu/~gareth/ISL/data.html). En especial los
   archivos ```Advertising.csv``` y ```Credit.csv```. 
 * [Notebook con ejemplo de regresion lineal para los datos de
