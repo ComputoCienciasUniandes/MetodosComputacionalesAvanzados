@@ -1,0 +1,89 @@
+
+%--------------------------------------------------------------------
+%--------------------------------------------------------------------
+% Formato para los talleres del curso de Métodos Computacionales
+% Universidad de los Andes
+%--------------------------------------------------------------------
+%--------------------------------------------------------------------
+
+\documentclass[11pt,letterpaper]{exam}
+\usepackage{amsmath}
+\usepackage[utf8]{inputenc}
+\usepackage[spanish]{babel}
+\usepackage{graphicx}
+\usepackage{tabularx}
+\usepackage[absolute]{textpos} % Para poner una imagen completa en la portada
+\usepackage{hyperref}
+\usepackage{float}
+
+\newcommand{\base}[1]{\underline{\hspace{#1}}}
+\boxedpoints
+\pointname{ pt}
+
+\extraheadheight{-0.15in}
+
+\newcommand\upquote[1]{\textquotesingle#1\textquotesingle} % To fix straight quotes in verbatim
+
+
+
+\begin{document}
+\begin{center}
+{\Large Universidad de los Andes - M\'etodos Computacionales Avanzados} \\
+Ejercicio 2 - \textsc{MCMC}\\
+21-04-2017\\
+\end{center}
+
+
+
+\vspace{0.3cm}
+
+
+\noindent
+La solución a este ejercicio debe subirse por SICUA antes de las 8:00PM
+del viernes 21 de abril del 2017. 
+Los c\'odigos deben encontrarse en un unico repositorio de \verb'github'
+con el nombre \verb"NombreApellido_Ej2". Por ejemplo yo deber\'ia
+crear un repositorio con el nombre
+\verb"JaimeForero_Ej2". 
+
+\noindent
+En el repositorio estar un \'unico c\'odigo de python que
+resuelve el problema propuesto.  
+
+\vspace{0.3cm}
+
+\begin{questions}
+\question{\bf{Epicentro}}
+  Una fuente s\'ismica se activo al tiempo $t=0$ en un lugar
+desconocido de la Tierra. Las ondas s\'ismicas
+producidas por la explosi\'on se grabaron por una red de seis
+estaciones s\'ismicas ubicadas en las siguientes coordenadas (en km):
+$(x_1,y_1,z_1)=(2,20,0)$,
+$(x_2,y_2,z_2)=(-2,-1,0)$,
+$(x_3,y_3,y_3)=(5,12,0)$,
+$(x_4,y_4,z_4)=(8,10,0)$,
+$(x_5,y_5,z_5)=(5,-16,0)$,
+$(x_6,y_6,y_6)=(1,40,0)$. Los 
+tiempos de llegada (en segundos) de las ondas s\'ismicas fueron 
+$t_{obs,1}=3.23\pm\sigma_t$, $t_{obs,2}=3.82\pm\sigma_t$,
+$t_{obs,3}=2.27\pm\sigma_t$, $t_{obs,4}=3.04\pm\sigma_t$,
+$t_{obs,5}=5.65\pm\sigma_t$, $t_{obs,6}=6.57\pm\sigma_t$, donde
+$\sigma_t=0.05$. 
+\begin{itemize}
+\item (60 puntos) Implemente un MCMC Hamiltoniano
+  para encontrar la distribuci\'on de probabilidad de la posici\'on del
+  epicentro dados los par\'ametros observacionales. Asuma que la
+  velocidad de propagaci\'on de las 
+  ondas es constante e igual a $5$ km/s.
+  El programa debe hacer tres gr\'aficas con la distribuci\'on de
+  probabilidad de $x$, $y$ y $z$ del epicentro.
+\item (60 puntos) Implemente el test de Rubin-Gelman (estad\'istica
+  $R^2$) para mostrar que las cadenas de Markov encontradas en el paso
+  anterior efectivamente convergieron. El codigo debe preparar una
+  gr\'afica acorde.
+\end{itemize}
+
+\end{questions}
+
+\end{document}
+
