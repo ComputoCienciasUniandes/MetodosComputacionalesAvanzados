@@ -1,0 +1,89 @@
+
+%--------------------------------------------------------------------
+%--------------------------------------------------------------------
+% Formato para los talleres del curso de Métodos Computacionales
+% Universidad de los Andes
+%--------------------------------------------------------------------
+%--------------------------------------------------------------------
+
+\documentclass[11pt,letterpaper]{exam}
+\usepackage{amsmath}
+\usepackage[utf8]{inputenc}
+\usepackage[spanish]{babel}
+\usepackage{graphicx}
+\usepackage{tabularx}
+\usepackage[absolute]{textpos} % Para poner una imagen completa en la portada
+\usepackage{hyperref}
+\usepackage{float}
+
+\newcommand{\base}[1]{\underline{\hspace{#1}}}
+\boxedpoints
+\pointname{ pt}
+
+\extraheadheight{-0.15in}
+
+\newcommand\upquote[1]{\textquotesingle#1\textquotesingle} % To fix straight quotes in verbatim
+
+
+
+\begin{document}
+\begin{center}
+{\Large Universidad de los Andes - M\'etodos Computacionales Avanzados} \\
+Tarea 5 - \textsc{Ecuaciones Diferenciales Parciales}\\
+05-05-2017\\
+\end{center}
+
+\vspace{0.3cm}
+
+
+\noindent
+La soluci\'on a este ejercicio debe subirse por SICUA antes de las 6:00PM
+del lunes 22 de Mayo del 2017. 
+Los c\'odigos deben encontrarse en un unico repositorio de \verb'github'
+con el nombre \verb"NombreApellido_Tarea3". Por ejemplo yo deber\'ia
+subir crear un repositorio con el nombre \verb"JaimeForero_Tarea3". 
+
+\noindent
+En el repositorio deben estar un notebook de jupyter (Python3,
+Scikit-Learn 0.18) que responde a las preguntas planteadas.
+\vspace{0.3cm}
+
+\begin{questions}
+\question{\bf{Haciendo Planetas}}
+
+Los planetas se forman a partir de un disco de gas y polvo que rodeaa
+la estrella central del sistema. A partir de un c\'odigo que sigue la
+evoluci\'on de este disco protoplanetario se pueden producir miles de
+sistemas planetarios diferentes variando los par\'ametros de
+entrada. Este sistema es altamente no lineal y no es claro cu\'ales
+variables de entrada dominan en los sistemas planetarios producidos.
+Uds. van a intentar encontrar patrones en estos resultados usando
+Machine Learning.
+
+En este lugar
+
+\url{https://github.com/ComputoCienciasUniandes/MetodosComputacionalesDatos/tree/master/homework/2017-10/planetas}
+
+se encuentran resultados de estas simulaciones. La estructura de los
+archivos se encuentran descrita en el README.
+
+Para cada uno de estos archivos, utilizando m\'etodos de machine
+learning construya modelos que puedan predecir:
+
+\begin{itemize}
+\item (20 puntos) N\'umero de planetas
+\item (20 puntos) Masa total de planetas (sin contar masa de gas)
+\item (20 puntos) Eficiencia de masa (masa total de planetas/masa del disco)
+\end{itemize}
+
+Plantee otros modelos de machine learning para encontrar los
+  par\'ametros de entrada que m\'as influyen en la predicci\'on de 
+\begin{itemize}
+\item (20 puntos) N\'umero de planetas
+\item (20 puntos) Masa total de planetas (sin contar masa de gas)
+\item (20 puntos) Eficiencia de masa (masa total de planetas/masa del
+  disco)
+\end{itemize}
+\end{questions}
+\end{document}
+
