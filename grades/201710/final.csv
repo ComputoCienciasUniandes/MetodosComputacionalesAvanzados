@@ -1,0 +1,25 @@
+Apellidos Nombres,Unix,MPI,OPENMP,Dif. Finitas,Elem. Finitos,MC Hamilton,MC parametros,ML Overfitting,ML Regularization,ML Dimension,Nota
+EJEMPLO ALUMNA,1,1,1,1,1,1,1,1,1,1,100
+ACOSTA PENALOZA                 JOSE ALFONSO,1,1,1,0.5,1,1,0.5,1,1,0.5,85
+ARIZA MEJIA                     JUAN FELIPE,0,1,1,0.5,0,0,1,1,0,1,55
+BARBOSA COY                     JUAN SEBASTIAN,1,1,1,1,0,0,1,1,0,1,70
+FRANCO ULLOA                    SEBASTIAN,1,1,1,0,0,1,1,1,1,1,80
+GALLEGO GALLON                  JUAN CAMILO,1,1,1,0.5,0.5,0,0,1,1,0,60
+GIRALDO LOZANO                  JUAN CAMILO,0,0,0,0,0,0,0,0,0,0,0
+GONZALEZ ORTIZ                  CRISTHIAN EDUARDO,1,1,1,0,1,0,0.5,1,1,1,75
+GUTIERREZ PULGARIN              SERGIO STEVEN,1,1,1,0,0,0,0.5,0,0,0.5,40
+HENRIQUEZ BERNAL                DAVID ALEJANDRO,1,1,1,1,0,1,0,1,1,0.5,75
+JAUREGUI SARMIENTO              NESTOR IVAN,1,1,1,0,0,0,0,1,1,0,50
+LAGUNA GUANTIVA                 MATEO,1,1,0,0,0,0,0.5,1,1,1,55
+LOPEZ RAMIREZ                   JUAN CAMILO,1,1,1,0,0,1,1,1,0,1,70
+MARIN JIMENEZ                   NATHAN MATEO,0,1,1,1,0,0,0,1,0,1,50
+NINO CHAPARRO                   ALEJANDRO,0,1,1,0,0,1,0,1,0,0,40
+ROMERO CORREA                   DANIEL,0,1,1,0,0,1,0,1,1,0,50
+TORROLEDO PE?A                  IVAN DARIO,1,1,1,0,0,1,1,1,1,1,80
+VELASQUEZ GARCIA                ARTURO,1,1,1,0,0,0,0,1,1,1,60
+VELASQUEZ MOROS                 FELIPE,1,1,1,0,0.5,0,0.5,1,1,1,70
+AGUILAR MONTERO                 JUAN GUILLERMO,1,1,1,0,0,0,0.5,1,0,0,45
+PRADA GONZALEZ                  JESUS DAVID,1,0,0,1,0,1,1,1,0,1,60
+RIVERA LOZANO                   CAMILO ANDRES,1,1,1,1,1,1,1,1,0,1,90
+SUAREZ PEREZ                    JOHN FREDY,1,1,1,0,0,0,0,1,0,0,40
+VELASQUEZ MOROS                 ANDREA,1,1,1,0,0,1,1,1,1,1,80
