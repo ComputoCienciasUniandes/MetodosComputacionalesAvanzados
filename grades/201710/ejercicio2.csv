@@ -1,25 +1,25 @@
 Apellidos Nombres,Ejercicio en Clase,Repo,Comentarios
 EJEMPLO ALUMNA,120,,
-ACOSTA PENALOZA                 JOSE ALFONSO,50,https://github.com/ChiefGuti/Sergio-Gutierrez_MCA/blob/master/Modelo%20Lasso.ipynb,No hay ninguna conclusion.
-ARIZA MEJIA                     JUAN FELIPE,60,https://github.com/avelasquez13/Ejercicio2/blob/master/ej2.py,"OK. El income es diferente, pero y que pasa con las demas variables? "
+ACOSTA PENALOZA                 JOSE ALFONSO,60,https://github.com/jjosealf94/Ejercicio2_MCA/blob/master/Ejercicio2.ipynb,"Hay codigo, corre, pero no da respuestas correctas y no hay convergencia."
+ARIZA MEJIA                     JUAN FELIPE,80,,
 BARBOSA COY                     JUAN SEBASTIAN,90,https://github.com/jsbarbosa/GenderIncome,Income es diferente. Gender no ayuda a predecir balance. Pero es diferente la situacion global (i.e. el modelo completo) para generos diferentes.
-FRANCO ULLOA                    SEBASTIAN,,,
-GALLEGO GALLON                  JUAN CAMILO,,,
+FRANCO ULLOA                    SEBASTIAN,100,https://github.com/cebasfu93/SebastianFranco_Ej2,Excelente MCMC pero rubin-gelman no da resultados razonables
+GALLEGO GALLON                  JUAN CAMILO,30,https://github.com/ggjuancamilo/JuanGallego_Ej2,Hay codigo pero no corre
 GIRALDO LOZANO                  JUAN CAMILO,,,
-GONZALEZ ORTIZ                  CRISTHIAN EDUARDO,,,
-GUTIERREZ PULGARIN              SERGIO STEVEN,50,,
-HENRIQUEZ BERNAL                DAVID ALEJANDRO,,,
+GONZALEZ ORTIZ                  CRISTHIAN EDUARDO,60,,
+GUTIERREZ PULGARIN              SERGIO STEVEN,60,,
+HENRIQUEZ BERNAL                DAVID ALEJANDRO,60,,
 JAUREGUI SARMIENTO              NESTOR IVAN,40,https://github.com/NestorJauregui/Ejercicios_Avanzados/blob/master/Machine_Learning/Lasso/linear.ipynb,?
-LAGUNA GUANTIVA                 MATEO,,,
+LAGUNA GUANTIVA                 MATEO,100,,
 LOPEZ RAMIREZ                   JUAN CAMILO,90,,
 MARIN JIMENEZ                   NATHAN MATEO,120,"https://github.com/mneira011/BonoProductoPunto-jajaja- , https://github.com/mneira011/Machine-Learning",LOL
 NINO CHAPARRO                   ALEJANDRO,50,https://github.com/nino1201/Clases-/blob/master/Esta.ipynb,Conclusion?
 ROMERO CORREA                   DANIEL,50,,
 TORROLEDO PE?A                  IVAN DARIO,100,https://github.com/Torroledo/IvanTorroledo_Ejercicio2/blob/master/DummyRegression.ipynb,
 VELASQUEZ GARCIA                ARTURO,50,https://github.com/ArturoVelasquez/Various-stuff/blob/master/Pathetical_attepmt.ipynb,Conclusion?
-VELASQUEZ MOROS                 FELIPE,60,,
+VELASQUEZ MOROS                 FELIPE,80,,
 AGUILAR MONTERO                 JUAN GUILLERMO,,,
-PRADA GONZALEZ                  JESUS DAVID,,,
+PRADA GONZALEZ                  JESUS DAVID,120,https://github.com/jdprada1760/JesusPrada_Ej2,
 RIVERA LOZANO                   CAMILO ANDRES,100,https://github.com/canrilo/CamiloRivera_Ej2,
-SUAREZ PEREZ                    JOHN FREDY,50,https://github.com/fnoj/JohnSuarez_Ej2/blob/master/linear.ipynb,Conclusion?
-VELASQUEZ MOROS                 ANDREA,60,,
+SUAREZ PEREZ                    JOHN FREDY,60,https://github.com/fnoj/JohnSuarez_Ej2/blob/master/Hamiltonian_Monte_Carlo.ipynb,Implementacion de MCMC pero con resultados incorrectos. Rubin Gelman implementado pero no produce resultados.
+VELASQUEZ MOROS                 ANDREA,80,git@github.com:avelasquez13/AndreaVelasquez_Ej2.git,"Los dos codigos corren, pero no dan respuestas correctas."
