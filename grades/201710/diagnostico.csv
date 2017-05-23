@@ -1,0 +1,26 @@
+Apellidos Nombres,Unix,MPI,OPENMP,Dif. Finitas,Elem. Finitos,MC Hamilton,MC parametros,ML Overfitting,ML Regularization,ML Dimension,Nota
+EJEMPLO ALUMNA,1,1,1,1,1,1,1,1,1,1,100
+ACOSTA PENALOZA                 JOSE ALFONSO,0,0,0,0,0,0,0,0,0,0,0
+ARIZA MEJIA                     JUAN FELIPE,0,0,0,0,0,0,0,0,0,1,10
+BARBOSA COY                     JUAN SEBASTIAN,0,0,0,0,0,0,0,0,0,1,10
+FRANCO ULLOA                    SEBASTIAN,1,0,0,0,0,0,0,1,0,1,30
+GALLEGO GALLON                  JUAN CAMILO,0,0,0,0,0,0,0,0,0,0,0
+GIRALDO LOZANO                  JUAN CAMILO,0,0,0,0,0,0,0,1,0,0,10
+GONZALEZ ORTIZ                  CRISTHIAN EDUARDO,0,0,0,0,0,0,0,0,0,0,0
+GUTIERREZ PULGARIN              SERGIO STEVEN,0,0,0,1,0,0,0,0,0,0,10
+HENRIQUEZ BERNAL                DAVID ALEJANDRO,0,0,0,0,0,0,0,0,0,0,0
+JAUREGUI SARMIENTO              NESTOR IVAN,0,0,0,1,0,0,0,0,0,1,20
+LAGUNA GUANTIVA                 MATEO,0,0,0,0,0,0,0,0,0,1,10
+LOPEZ RAMIREZ                   JUAN CAMILO,0,0,0,0,0,0,0,0,0,1,10
+MARIN JIMENEZ                   NATHAN MATEO,0,0,0,0,0,0,0,0,0,1,10
+NINO CHAPARRO                   ALEJANDRO,0,0,0,0,0,0,0,0,0,0,0
+ROMERO CORREA                   DANIEL,0,0,0,0,0,0,0,0,0,0,0
+TORROLEDO PE?A                  IVAN DARIO,0,0,1,0,0,0,0,1,0,1,30
+VELASQUEZ GARCIA                ARTURO,0,0,0,0,0,0,0,0,0,0,0
+VELASQUEZ MOROS                 FELIPE,0,0,0,0,0,0,0,0,0,0,0
+AGUILAR MONTERO                 JUAN GUILLERMO,0,0,0,0,0,0,0,0,0,0,0
+PRADA GONZALEZ                  JESUS DAVID,0,0,0,0,0,0,1,1,0,1,30
+RIVERA LOZANO                   CAMILO ANDRES,1,0,0,0,0,0,1,1,0,1,40
+SUAREZ PEREZ                    JOHN FREDY,0,0,0,0,0,0,0,0,0,0,0
+VELASQUEZ MOROS                 ANDREA,0,0,0,0,0,0,0,0,0,1,10
+,0,0,0,0,0,0,0,0,0,0,
