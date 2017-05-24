@@ -14,8 +14,8 @@ LAGUNA GUANTIVA                 MATEO,14,21,28,7,3,10,83,,
 LOPEZ RAMIREZ                   JUAN CAMILO,20,30,28,7,10,10,105,,
 MARIN JIMENEZ                   NATHAN MATEO,20,30,28,3,10,10,101,https://github.com/mateomarin97/NathanMarin_Tarea2,"El makefile no funciona. En plotsedov FileNotFoundError: [Errno 2] No such file or directory: 'rho3sedov.dat'
 "
-NINO CHAPARRO                   ALEJANDRO,20,30,12,3,10,10,85,https://github.com/dan947/AlejandroNino-DanielRomero-Tarea2,"El codigo de Sedov compila pero ""cuelga"" mi maquina"
-ROMERO CORREA                   DANIEL,20,30,12,3,10,10,85,,
+NINO CHAPARRO                   ALEJANDRO,20,30,28,7,10,10,105,https://github.com/dan947/AlejandroNino-DanielRomero-Tarea2,"El codigo de Sedov compila pero ""cuelga"" mi maquina"
+ROMERO CORREA                   DANIEL,20,30,28,7,10,10,105,,
 TORROLEDO PE?A                  IVAN DARIO,14,21,28,7,3,10,83,https://github.com/Torroledo/IvanTorroledo_Tarea2,"La solucion numerica del tubo muestra inestabilidades del orden de 1E19 y la grafica de la solucion analitica no se ve. El makefile vuelve a correr los ejecutables cuando solamente se le piden las graficas. En el caso de Sedov, solamente aparece una grafica y no aparece una onda de choque."
 VELASQUEZ GARCIA                ARTURO,20,30,28,5,7,10,100,https://github.com/ArturoVelasquez/ArturoVelasquez_Tarea2,"El makefile no funciona (por falta de return 0 en main()). En sedov los resultados de la densidad no parecen razonables, el codigo en python ademas solamente grafica en 3 radios, no en todos."
 VELASQUEZ MOROS                 FELIPE,20,30,28,10,10,10,108,,
