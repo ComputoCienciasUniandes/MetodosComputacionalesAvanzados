@@ -13,3 +13,6 @@
 [Nektar++, code for compressible flow simulation](http://www.nektar.info/)   
 
 * [A simple python-based tutorial on computational methods for hydrodynamics http://zingale.github.io/pyro2](https://github.com/zingale/pyro2)  
+
+* [How to Write a Hydro Code - School](http://duffell.org/summerschool.html)  
+* [How to Write a Hydro Code - pdf doc](http://duffell.org/media/hydro.pdf)  
