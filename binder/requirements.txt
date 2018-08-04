@@ -1,7 +1,9 @@
 traitlets>=4.3.1
 ipython
+jupyterlab_launcher>=0.5.0
 pandas
 vdom
 matplotlib
+scipy
 scikit-learn
-jupyterlab_launcher>=0.5.0
+
