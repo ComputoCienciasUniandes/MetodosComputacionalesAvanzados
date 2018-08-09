@@ -175,4 +175,3 @@ a = list(range(10))
 print(a)
 random.shuffle(a)
 print(a)
-
