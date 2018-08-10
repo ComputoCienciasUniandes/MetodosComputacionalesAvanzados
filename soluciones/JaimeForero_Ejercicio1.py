@@ -1,6 +1,6 @@
 # Compute the number of seconds since the day you were born
 
-n = (36*12 + 10)*30*3600
+n = (36*12 + 10) * 30 * 24 * 3600
 print(n)
 
 # Compute the value for the golden ratio number $(1+\sqrt{5})/2$
@@ -16,7 +16,7 @@ print(a[5:])
 
 #Build a list with 100 repetitions of the sequence 1, -1 (i.e. [1,-1,1,-1,1,-1,...])
 
-a = [-1,1]
+a = [1,-1]
 a = 100*a
 print(a)
 
