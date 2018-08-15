@@ -30,20 +30,25 @@ def sigma(p_a, pdf_p_a):
 def posterior(s):
     n_points = 1000
     p_a = np.linspace(0.0, 1.0, n_points)
+
     p =  prior(p_a)
     l = likelihood(s, p_a)
-    post = p * l
+
+    post = p * l # Bayes
+
     norm = np.trapz(post, p_a)
     post = post/norm
 
     mp = max_prob(p_a, post)
     m = mean(p_a, post)
-    s = sigma(p_a, post)
+    sig = sigma(p_a, post)
 
-    values = 'Max Prob = {:.2f}, Mean = {:.2f}, Sigma={:.2f}'.format(mp, m, s)
+    values = 'Max Prob = {:.2f}, Mean = {:.2f}, Sigma={:.2f}'.format(mp, m, sig)
 
-    plt.plot(p_a, post)
+    
+    plt.plot(p_a, post , label="data= {}".format(s))
     plt.title(values)
+    plt.legend()
+    plt.xlabel('$p_a$')
+    plt.ylabel('$PDF (p_a|data)$')
     plt.savefig('posterior.pdf')
-
-posterior('abababababaaabbaaaa')
