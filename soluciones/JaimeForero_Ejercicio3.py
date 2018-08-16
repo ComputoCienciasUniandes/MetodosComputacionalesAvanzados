@@ -4,8 +4,8 @@ matplotlib.use('Agg')
 import numpy as np
 import matplotlib.pyplot as plt
 
-def prior(p_a, f="flat"):
-    n_points = len(p_a)
+def prior(x, f="flat"):
+    n_points = len(x)
     if f=="flat":
         p = np.ones(n_points)
     return p
@@ -15,16 +15,16 @@ def likelihood(s, p_a):
     n_b = s.count('b')
     return (p_a)**n_a * (1-p_a)**n_b
 
-def max_prob(p_a, pdf_p_a):
-    ii = np.argmax(pdf_p_a)
-    return p_a[ii]
+def max_prob(x, pdf_x):
+    ii = np.argmax(pdf_x)
+    return x[ii]
 
-def mean(p_a, pdf_p_a):
-    return np.trapz(pdf_p_a*p_a, p_a)
+def mean(x, pdf_x):
+    return np.trapz(pdf_x*x, x)
 
-def sigma(p_a, pdf_p_a):
-    m = mean(p_a, pdf_p_a)
-    s = np.trapz(pdf_p_a*p_a*p_a, p_a)
+def sigma(x, pdf_x):
+    m = mean(x, pdf_x)
+    s = np.trapz(pdf_x*x*x, x)
     return np.sqrt(s - m**2)
 
 def posterior(s):
