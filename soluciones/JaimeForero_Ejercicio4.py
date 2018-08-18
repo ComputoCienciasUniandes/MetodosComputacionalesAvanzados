@@ -11,7 +11,6 @@ edad_maxima_obs = 40
 edad_final = np.arange(0, 500)
 n_edades = len(edad_final)
 
-n_points = len(edad_final)
 n_intentos_por_edad = 10000
 
 
