@@ -19,7 +19,7 @@ def metropolis(N=100000):
 
     for i in range(1,N):
         propuesta  = lista[i-1] + np.random.normal(loc=0.0, scale=sigma_delta)
-        r = f(propuesta)/f(lista[i-1])
+        r = min(1,f(propuesta)/f(lista[i-1]))
         alpha = np.random.random()
         if(alpha<r):
             lista.append(propuesta)
