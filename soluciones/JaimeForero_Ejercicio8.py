@@ -61,7 +61,7 @@ v_medio  = np.mean(l_param[:,1])
 v_sigma = np.std(l_param[:,1])
 title = "$v = {:.2f} \pm {:.2f} $ km/s".format(v_medio, v_sigma)
 
-_ = plt.hist(l_param[:,1], bins=20)
+_ = plt.hist(l_param[:,1], bins=20, density=True)
 plt.title(title)
 plt.xlabel("$v_0$ (km/s)")
 plt.ylabel("PDF ($v_0$|observaciones)")
