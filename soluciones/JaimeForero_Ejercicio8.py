@@ -65,7 +65,7 @@ _ = plt.hist(l_param[:,1], bins=20, density=True)
 plt.title(title)
 plt.xlabel("$v_0$ (km/s)")
 plt.ylabel("PDF ($v_0$|observaciones)")
-plt.savefig('gravity.pdf')
+plt.savefig('Ejercicio9.pdf')
 plt.clf()
 
 plt.scatter(l_param[:,0], l_param[:,1], s=1.0, alpha=0.1)
