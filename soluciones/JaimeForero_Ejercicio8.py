@@ -38,9 +38,9 @@ def logprior(param):
 y_obs = np.array([880.0, 795.0, 782.0, 976.0, 178.0])
 sigma_y_obs = 5.0 * np.ones(len(y_obs))
 
-N = 50000
+N = 100000
 l_param = [np.array([np.pi/4.0, 10.0])]
-sigma_param = np.array([0.5, 1.0])
+sigma_param = np.array([0.1, 1.0])
 n_param = len(sigma_param)
 for i in range(1,N):
     propuesta  = l_param[i-1] + np.random.normal(size=n_param)*sigma_param
@@ -59,13 +59,13 @@ l_param = l_param[N//10:,:] # descartamos el primer 10% de la cadena
 
 v_medio  = np.mean(l_param[:,1])
 v_sigma = np.std(l_param[:,1])
-title = "$v = {:.2f} \pm {:.2f} $ km/s".format(v_medio, v_sigma)
+title = "$v = {:.1f} \pm {:.1f} $ km/s".format(v_medio, v_sigma)
 
 _ = plt.hist(l_param[:,1], bins=20, density=True)
 plt.title(title)
 plt.xlabel("$v_0$ (km/s)")
 plt.ylabel("PDF ($v_0$|observaciones)")
-plt.savefig('Ejercicio9.pdf')
+plt.savefig('Ejercicio8.pdf')
 plt.clf()
 
 plt.scatter(l_param[:,0], l_param[:,1], s=1.0, alpha=0.1)
