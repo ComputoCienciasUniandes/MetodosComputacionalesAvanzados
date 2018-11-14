@@ -43,7 +43,7 @@ int main(int argc, char **argv){
       list[i] = gauss_1;
   }
 
-  sprinft(filename, "sample_%d.dat", n_points_proc);
+  sprintf(filename, "sample_%d.dat", rank);
   if(!(out = fopen(filename, "w"))){
     fprintf(stderr, "Problema abriendo el archivo\n");
     exit(1);
@@ -54,7 +54,7 @@ int main(int argc, char **argv){
   }
 
   fclose(out);
-  MPI_Barrier(comm);
+  MPI_Barrier(MPI_COMM_WORLD);
   MPI_Finalize(); 
   return 0;
 }
