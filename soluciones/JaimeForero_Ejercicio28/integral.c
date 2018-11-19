@@ -20,19 +20,20 @@ int main(int argc, char **argv){
   MPI_Comm_size (MPI_COMM_WORLD, &number);
 
   n_points = atoi(argv[1]);
-
   myintegral = 0.0;
   srand48(rank);
+  n_points_proc = n_points/number;
   for(i=0;i<n_points_proc;i++){    
-    sum = 0.0;
+   sum = 0.0;
     for(j=0;j<deg;j++){
-      sum += pow(drand48(),2);
+      sum += drand48();
     }
+    sum = pow(sum,2);
     myintegral +=sum;
   }
   myintegral /= n_points_proc;
 
- MPI_Reduce(&myintegral, &integral, 1, MPI_DOUBLE, MPI_SUM, 0, MPI_COMM_WORLD);
+  MPI_Reduce(&myintegral, &integral, 1, MPI_DOUBLE, MPI_SUM, 0, MPI_COMM_WORLD);
  if(rank==0){
    integral /= number;
    fprintf(stdout, "%d %e %e\n", n_points, integral, fabs(integral - 155.0/6.0));
